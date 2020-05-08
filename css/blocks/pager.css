@@ -32,3 +32,11 @@
 .pager__link:hover {
     background: #ff5400;
 }
+
+.pager--service{
+  color: #000000;
+}
+.pager__item--active--service .pager__link{
+  color: #ffffff;
+  background: #ff5400;
+}
