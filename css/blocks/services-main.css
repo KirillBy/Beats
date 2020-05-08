@@ -40,7 +40,7 @@
     line-height: 1.42;
   }
  
- .btn--service{
+  .service__desc__btn--service{
     margin-top:auto;
-    margin-bottom: 15px;
- }
+  }
+ 
