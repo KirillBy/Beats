@@ -1,0 +1,34 @@
+.pager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 11px;
+}
+.pager__display {
+    margin-right: 26px;
+  }
+  
+  .pager__list {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .pager__item {
+    text-align: center;
+  }
+.pager__item--active .pager__link {
+    background: #ff5400;
+}
+.pager__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+  }
+.pager__link:hover {
+    background: #ff5400;
+}

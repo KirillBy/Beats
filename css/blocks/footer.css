@@ -1,0 +1,41 @@
+.footer-container {
+    margin-top: auto;
+  }
+  
+  .footer-container__section {
+    height: 140px;
+    margin-top: 6px;
+    align-items: top;
+  }
+  
+  .footer-container__content {
+    border-top: 1px solid #353538;
+    
+  }
+  
+  .footer {
+    position: relative;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+  }
+  
+  .footer__col {
+    display: flex;
+    align-items:center;
+    padding-bottom: 25px;
+  }
+  
+ 
+.footer .menu {
+    margin-left: 66px;
+    margin-top: 3px;
+    
+}
+.footer__col--align--right{
+  display: flex;
+  align-items: center;
+}
+.footer__col__contacts{
+  margin-left: 81px;
+}

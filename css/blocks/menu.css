@@ -1,0 +1,24 @@
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 34px;
+}
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 53px;
+  }
+  
+  
+.menu__item:last-child {
+margin-right: 0;
+}
+  
+.menu__link {
+font-size: 14px;
+text-decoration: none;
+}
+  
+.menu__link:hover {
+color: #ff5400;
+}
