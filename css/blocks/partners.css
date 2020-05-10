@@ -10,14 +10,14 @@ h2.partners__header{
     margin-bottom: 57px;
 }
 
-.partners--list{
+.partners__list{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     
 }
 
-.partners--list__item {
+.partners__list__item {
     text-decoration: none;
     display: flex;
     width: 250px;
@@ -26,15 +26,15 @@ h2.partners__header{
     justify-content: center;
     filter: grayscale(100%);
   }
-  .partners--list__item:hover {
+  .partners__list__item:hover {
     filter: grayscale(0);
   }
 
-  .partners--list__item:nth-child(4n + 1)
+  .partners__list__item:nth-child(4n + 1)
   {
       justify-content: flex-start;
   }
-  .partners--list__item:nth-child(4n + 4)
+  .partners__list__item:nth-child(4n + 4)
   {
       justify-content: flex-end;
   }

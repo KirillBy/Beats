@@ -1,16 +1,17 @@
 .services-main{
-    display: flex;
-    flex-direction: column;
+
     min-height: 811px;
-    justify-content: space-between;
     padding-top: 101px;
     margin-bottom: 64px;
 }
 
 .service{
     display: flex;
-    
-    height: 330px;
+    margin-bottom: 50px;
+}
+
+.sevice:last-child{
+    margin-bottom: 0;
 }
 .service__img{
     
@@ -56,3 +57,4 @@
   .page-content{
       margin-bottom: 90px;
   }
+  

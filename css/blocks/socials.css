@@ -1,12 +1,9 @@
 .socials__item {
-    display: inline-block;
-    vertical-align: middle;
+    
     margin-right: 6px;
 }  
 .socials {
-    position: absolute;
-    top: 41px;
-    right: 265px;
+    display: flex;
 }
 .socials__item:last-child {
     margin-right: 0;

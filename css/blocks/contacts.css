@@ -1,6 +1,5 @@
 .contacts {
     position: relative;
-    right: 2px;
     font-style: normal;
     text-align: right;
 }
@@ -15,7 +14,6 @@
     font-weight: 400;
     text-decoration: underline;
     text-align: right;
-    padding-right: 5px;
     color: #ff5400;
 }
 .contacts__desc{

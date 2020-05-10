@@ -9,7 +9,9 @@
     margin-right: 53px;
   }
   
-  
+  .menu__item--active{
+    color: #ff5400;
+  }
 .menu__item:last-child {
 margin-right: 0;
 }

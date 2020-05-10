@@ -1,7 +1,6 @@
 .offers {
     display: flex;
     justify-content: space-between;
-    padding-right: 9px;
   }
 .offers__item{
     width: calc(100% / 3 - 18px);
@@ -16,7 +15,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding: 24px 22px 52px;
+    padding: 24px 22px 44px;
     border:7px solid transparent;
 }
 .offers__item:hover{
@@ -37,6 +36,7 @@
     font-family: "Open Sans";
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 23px;
     
 }
 .offers__cells{
@@ -44,9 +44,7 @@
       justify-content: space-between;
       margin-bottom: 30px;
 }
-.offers__cells-cell {
-  margin-top: 23px;
-}
+
 .offers__cells-cell:last-child{
     margin-right: 0;
 }
@@ -57,6 +55,7 @@
     color: #666666;
     font-size: 14px;
     font-weight: 400;
+    line-height: 21px;
 }
 .offers__desc{
     margin-bottom: 38px;
