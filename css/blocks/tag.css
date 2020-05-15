@@ -1,0 +1,22 @@
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .review__tag-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tag {
+    font-size: 13px;
+    color: #333;
+    padding: 8px 21px;
+    border-radius: 50px;
+    background: #e6e6e6;
+  }
+  
+  .tag--bg--green {
+    background: #f2d3c8;
+  }
