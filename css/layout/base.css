@@ -52,6 +52,11 @@ body,html{
     background: url("/images/bg/hero.jpg") center top no-repeat, url("/images/bg/bottom-pic.jpg") center bottom 310px no-repeat;
     background-color: #17191a;
 }
+.wrapper--welcome{
+    min-height: 960px;
+        background: url("/images/bg/welcome/welcome-back.png") center top no-repeat;
+        background-size: contain;
+}
 .container {
     margin: 0 auto;
     width: 1140px;

@@ -1,0 +1,55 @@
+.welcome{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url("/images/bg/welcome/welcome-back.png") center bottom / cover no-repeat;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central__logo{
+    margin-bottom: 39px;
+    min-width: 398px ;
+    min-height: 95px;
+}
+
+.btn--welcome{
+    width: 115px;
+    height: 42px;
+    border-radius: 28px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 13px 77px 20px 34px;
+}
+
+.central--video{
+    opacity: 0;
+    animation: rotateIn .9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotateIn{
+    from{
+        transform: scale(0.1) rotate(30deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    70%{
+        transform: rotate(3deg);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
