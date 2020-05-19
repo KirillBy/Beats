@@ -10,7 +10,7 @@
   content: "";
   width: 488px;
   height: 502px;
-  background: url("/images/decor/cameraman.jpg") center center / cover no-repeat;
+  background: url("/VideoProduction/images/decor/cameraman.jpg") center center / cover no-repeat;
   display: block;
 }
 .about__desc {

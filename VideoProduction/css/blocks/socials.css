@@ -22,17 +22,17 @@
       opacity: .4;
   }
   .socials__item--icon--telegram .socials__link {
-    background-image: url("/images/icons/socials/telegram.png");
+    background-image: url("/VideoProduction/images/icons/socials/telegram.png");
   }
  
   .socials__item--icon--vk .socials__link {
-    background-image: url("/images/icons/socials/vkontakte.png");
+    background-image: url("/VideoProduction/images/icons/socials/vkontakte.png");
   }
  
   .socials__item--icon--fb .socials__link {
-    background-image: url("/images/icons/socials/facebook.png");
+    background-image: url("/VideoProduction/images/icons/socials/facebook.png");
   }
   
   .socials__item--icon--insta .socials__link {
-    background-image: url("/images/icons/socials/instagram.png");
+    background-image: url("/VideoProduction/images/icons/socials/instagram.png");
   }
