@@ -25,7 +25,13 @@
                     </nav>
                     <div class="header__col__contacts contacts ">
                       <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                      <div class="contacts__dropdown-title">График работы</div>
+                      <a href="#" class="contacts__link">График работы</a>
+                        <div class="contacts__drop">
+                          <ul class="contacts__list">
+                            <li class="contacts__item"><b>пн-вс: 09:00 - 20:00</b></li>
+                            <li class="contacts__item">Обед: 14:00-14:30</li>
+                          </ul>
+                        </div>
                     </div>          
                 </class>
               </header>
@@ -145,10 +151,10 @@
                   </div>
                 </li>
               </ul>
-              <div class="pager pager--theme--light">
+              <div class="pager--black pager ">
                 <div class="pager__display">Страница 1 из 7</div>
                 <ul class="pager__list">
-                  <li class="pager__item pager__item--active"> <a href="#" class="pager__link">1</a> </li>
+                  <li class="pager__item pager__item--active--black"> <a href="#" class="pager__link">1</a> </li>
                   <li class="pager__item"> <a href="#" class="pager__link">2</a> </li>
                   <li class="pager__item"> <a href="#" class="pager__link">3</a> </li>
                   <li class="pager__item"> <a href="#" class="pager__link">4</a> </li>
@@ -157,8 +163,127 @@
                   <li class="pager__item"> <a href="#" class="pager__link">7</a> </li>
                 </ul>
               </div>
-            </div>
           </main>
+
+          <section class="separator">
+            <div class="container">
+              <div class="separator__content">
+                <h2 class="separator__title">
+                    Скидка <span class  = "orange-text">20%</span> на съемку мероприятий
+                </h2>
+              </div>
+            </div>
+          </section>
+
+          <section class="reviewer">
+              <div class="container">
+                  <div class="review-header">
+                      ОСТАВЬТЕ ОТЗЫВ
+                  </div>
+                  <form class="review-form">
+                      <div class="form__row">
+                          <input name="name" class="form__input" type="text" placeholder="Ваше имя">
+                          <input name="social" class="form__input" type="text" placeholder="Ссылка на профиль VK">
+                      </div>
+                      <div class="form__row">
+                        <textarea name="comment" class="form__input form__input_comment" cols="30" rows="10" placeholder="Напишите свой честный отзыв ;)"></textarea>
+                      </div>
+                      <div class="form__service">
+                          <div class="form__service-title">
+                              Какими услугами компании пользуетесь?
+                          </div>
+                          <div class="form__service-checks">
+                              <label>
+                                  <input class="form__check" type="checkbox">
+                                  <div class="form__check-descr tag form__check__tag">
+                                      Съёмки клипа
+                                  </div>
+                              </label>
+                              <label>
+                                <input class="form__check" type="checkbox">
+                                <span class="form__check-descr tag form__check__tag">
+                                    Съёмки рекламы
+                                </span>
+                            </label>
+                            <label>
+                                <input class="form__check" type="checkbox">
+                                <span class="form__check-descr tag form__check__tag">
+                                    Съёмка свадьбы
+                                </span>
+                            </label>
+                            <label>
+                                <input class="form__check" type="checkbox">
+                                <span class="form__check-descr tag form__check__tag">
+                                    Студийная съёмка
+                                </span>
+                            </label>
+                            <label>
+                                <input class="form__check" type="checkbox">
+                                <span class="form__check-descr tag form__check__tag">
+                                    Никакими
+                                </span>
+                            </label>
+                            <label>
+                                <input class="form__check" type="checkbox">
+                                <span class="form__check-descr tag form__check__tag">
+                                    Видеоклип
+                                </span>
+                            </label>
+                            <label>
+                                <input class="form__check" type="checkbox">
+                                <span class="form__check-descr tag form__check__tag">
+                                    Другое
+                                </span>
+                            </label>
+                          </div>
+                      </div>
+                      <div class="form__row form__row-buttoms">
+                          <button class="btn btn--color--black reset" type="reset">Очистить</button>
+                          <button class="btn btn--color--ginger submit" type="submit">Отправить</button>
+                      </div>
+                  </form>
+              </div>
+          </section>
+
+          <footer class="footer-container">
+            <div class="container footer-container__content">
+              <div class="footer footer-container__section">
+                <div class="footer__col">
+                  <a href="/" class="logo footer__logo">
+                    <img src="./images/logo.png" alt="lion bank logo" class="logo__img">
+                  </a>
+                  <nav class="menu">
+                    <ul class="menu__list">
+                      <li class="menu__item"> <a href="/index.html" class="menu__link">Главная</a> </li>
+                      <li class="menu__item"> <a href="/services.html" class="menu__link">Услуги</a> </li>
+                      <li class="menu__item menu__item--active"> <a href="/reviews.html" class="menu__link">Отзывы</a> </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="footer__col footer__col--align--right">
+                  <ul class="footer__col-socials socials">
+                    <li class="socials__item socials__item--icon--telegram">
+                      <a href="#" class="socials__link"></a>
+                    </li>
+                    <li class="socials__item socials__item--icon--vk">
+                      <a href="#" class="socials__link"></a>
+                    </li>
+                    <li class="socials__item socials__item--icon--fb">
+                      <a href="#" class="socials__link"></a>
+                    </li>
+                    <li class="socials__item socials__item--icon--insta">
+                      <a href="#" class="socials__link"></a>
+                    </li>
+                  </ul>
+                  <address class="footer__col__contacts contacts ">
+                    <div class="contacts__desc">Бесплатный звонок по России</div>
+                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                  </address>
+                </div>
+              </div>
+            </div>
+          </footer>
+
     </div>
 </body>
 </html>

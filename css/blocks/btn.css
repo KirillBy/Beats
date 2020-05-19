@@ -8,9 +8,17 @@
     text-decoration: none;
     display: inline-block;
     margin-left: 0;
+    cursor: pointer;
+    outline: none;
 }
 .btn--color--ginger {
     background: #ff3c00;
+}
+.btn--color--black {
+    background: #000;
+}
+.btn--color--black:hover {
+    background: rgb(75, 73, 73);
 }
 .btn--color--ginger:hover {
     background: #d3a556;

@@ -1,14 +1,14 @@
 .separator {
-    background: #e5c288 url("./img/decor/phone-n-hand.png") right 27% bottom 108% no-repeat;
+    background: #373737 url("/images/decor/party.png") right 11% bottom 42% no-repeat;
     min-height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #202123;
+    color: #eeeeee;
   }
   
   .separator__content {
-    max-width: 45%;
+    max-width: 49%;
   }
   
   .separator__title {

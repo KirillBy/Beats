@@ -33,10 +33,11 @@
     background: #ff5400;
 }
 
-.pager--service{
+.pager--black{
   color: #000000;
 }
-.pager__item--active--service .pager__link{
+.pager__item--active--black .pager__link{
   color: #ffffff;
   background: #ff5400;
 }
+
