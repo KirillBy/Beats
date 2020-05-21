@@ -2,7 +2,7 @@
     background-color: #f4f5f5;
     color: #000;
     padding-top: 79px;
-    padding-bottom: 59px;
+    padding-bottom: 63px;
 }
 
 .form__row{
@@ -13,9 +13,8 @@
 .form__input{
     flex: 1;
     margin-right: 30px;
-    padding: 25px 0 20px 29px;
-   outline: none;
-   border: none;
+    padding: 25px 29px 20px 29px;
+    border: none;
 }
 
 .form__input:last-child{
@@ -47,13 +46,15 @@
     justify-content: flex-end;
 }
 .form__row-buttoms .submit{
-    margin-left: 2px;
+    margin-left: 9px;
 }
 .submit{
-    padding: 17px 50px 21px 47px;
+    padding: 21px 50px 21px 47px;
+    border: none;
 }
 .reset{
     padding: 21px 35px;
+    border: none;
 }
 .form__check-descr{
     display: inline-block;
@@ -61,5 +62,9 @@
 }
 .form__service{
     display: flex;
-    margin-bottom: 24px;
+    margin-bottom: 26px;
+}
+
+.check_label{
+    margin-right: 5px;
 }

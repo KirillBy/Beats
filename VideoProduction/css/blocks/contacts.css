@@ -24,14 +24,13 @@
 }
 .contacts__link{
     display: block;
+    transition: color .5s;
 }
-.contacts:hover .contacts__drop{
-    top:70px;
-    
-}
+
 .contacts:hover .contacts__link{
  
     color: #ff5400;
+    
 }
 .contacts__list{
     letter-spacing: none;
@@ -52,6 +51,12 @@
     top: -9999px;
     right: 0;
     max-width: 150px;
+    opacity: 0; 
+    transition: opacity .5s;
+}
+.contacts:hover .contacts__drop{
+    top:70px;
+    opacity: 1;
 }
 
 .contacts__drop::after{

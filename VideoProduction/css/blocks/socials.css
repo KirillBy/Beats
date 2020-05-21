@@ -21,18 +21,23 @@
   .socials__link:hover{
       opacity: .4;
   }
+
   .socials__item--icon--telegram .socials__link {
-    background-image: url("/VideoProduction/images/icons/socials/telegram.png");
+    
+    background: url("/VideoProduction/images/icons/socials/social_sprite.png")   -6px -6px;
   }
  
   .socials__item--icon--vk .socials__link {
-    background-image: url("/VideoProduction/images/icons/socials/vkontakte.png");
+    
+    background: url("/VideoProduction/images/icons/socials/social_sprite.png") -54px -6px;
   }
  
   .socials__item--icon--fb .socials__link {
-    background-image: url("/VideoProduction/images/icons/socials/facebook.png");
+    
+    background: url("/VideoProduction/images/icons/socials/social_sprite.png") -102px -6px;
   }
   
   .socials__item--icon--insta .socials__link {
-    background-image: url("/VideoProduction/images/icons/socials/instagram.png");
+    
+    background: url("/VideoProduction/images/icons/socials/social_sprite.png") -150px -6px;
   }

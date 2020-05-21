@@ -19,6 +19,7 @@ margin-right: 0;
 .menu__link {
 font-size: 14px;
 text-decoration: none;
+transition: color .5s;
 }
   
 .menu__link:hover {
