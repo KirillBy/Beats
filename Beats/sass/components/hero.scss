@@ -11,14 +11,14 @@
             width: 488px;
             height: 494px;
             content: '';
-            background: url(./image/bg/firstpage.png);
+            background: url(./../../image/bg/firstpage.png);
             background-size: cover;
             position: absolute;
             top: 109px;
             right: 18px;
           }
           &:after{
-             content: url(./image/bg/small.png);
+             content: url(./../../image/bg/small.png);
              position: absolute;
              bottom: -16px;
              right: 48px;
