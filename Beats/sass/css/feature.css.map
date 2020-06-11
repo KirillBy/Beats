@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,QAAQ,AAAC,CACL,OAAO,CAAE,IAAI,CACd,AAED,AAAA,cAAc,AAAC,CACb,KAAK,CAAE,IAAI,CACX,YAAY,CAAE,GAAG,CAClB,AAED,AAAA,cAAc,AAAC,CACb,SAAS,CAAE,IAAI,CACf,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CACjB",
+    "sources": [
+        "../components/feature.scss"
+    ],
+    "names": [],
+    "file": "feature.css"
+}
