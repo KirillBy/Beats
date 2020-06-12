@@ -1,0 +1,40 @@
+.benefits__container{
+    padding: 97px 0 107px 0;
+    &:after{
+        content: url(./../../image/bg/triangle.png);
+        position: absolute;
+        bottom: -12px;
+        left: -19px;
+     }
+}
+.benefits {
+    padding-top: 57px;
+    padding-right: 15px;
+    display: flex;
+  }
+  
+  .benefits__item {
+    flex: 1;
+    padding: 0 1.5%;
+    position: relative;
+  
+    &:before {
+      content: url("./../../image/decor/separator.png");
+      position: absolute;
+      top: 50px;
+      right: 0;
+      transform: translateX(50%);
+    }
+  
+    &:first-child {
+      padding-left: 0;
+    }
+  
+    &:last-child {
+      padding-right: 0;
+  
+      &:before {
+        display: none;
+      }
+    }
+  }

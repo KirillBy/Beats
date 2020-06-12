@@ -1,6 +1,6 @@
 
 //normalize
-@import url(../css/normalize.css);
+@import url(./../css/normalize.css);
 
 // setups
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
@@ -13,3 +13,6 @@
 @import "./components/btn.scss";
 @import "./components/hero__title.scss";
 @import "./components/hero__features.scss";
+@import "./components/benefits_headline.scss";
+@import "./components/benefits.scss";
+@import "./components/benefit.scss";

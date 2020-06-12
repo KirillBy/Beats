@@ -1,0 +1,13 @@
+.section__title {
+  padding-top: 114px; }
+  .section__title .headline__title {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; }
+
+.headline__subtitle {
+  font-size: 18px;
+  font-weight: 400; }
+
+/*# sourceMappingURL=section__title.css.map */
