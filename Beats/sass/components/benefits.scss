@@ -1,21 +1,23 @@
 .benefits__container{
+  width: 994px;
     padding: 97px 0 107px 0;
     &:after{
         content: url(./../../image/bg/triangle.png);
         position: absolute;
         bottom: -12px;
-        left: -19px;
+        left: 6px;
      }
 }
 .benefits {
     padding-top: 57px;
     padding-right: 15px;
     display: flex;
+    justify-content: space-between;
   }
   
   .benefits__item {
     flex: 1;
-    padding: 0 1.5%;
+    padding: 0 2%;
     position: relative;
   
     &:before {
