@@ -149,13 +149,15 @@ img {
     color: #fff; }
     .btn--theme--red:hover {
       color: #e01f3d;
-      background: #fff; }
+      background: #fff;
+      cursor: pointer; }
   .btn--theme--transparent {
     background: transparent;
-    color: #000;
+    color: #999999;
     text-transform: none; }
     .btn--theme--transparent:hover {
-      color: #e01f3d; }
+      color: #e01f3d;
+      cursor: pointer; }
 
 .hero__title-section {
   margin-top: 82px; }
@@ -270,10 +272,15 @@ img {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -65px; }
+    top: -40px; }
 
 .review__container {
   padding: 68px 0 66px 0; }
+  .review__container:after {
+    content: url(./../../image/bg/round.png);
+    position: absolute;
+    bottom: -20px;
+    left: -1px; }
 
 .review__title {
   color: #000000;
@@ -357,5 +364,97 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
+
+.form {
+  display: flex; }
+
+.form__col {
+  flex: 1;
+  margin-right: 20px; }
+  .form__col:last-child {
+    margin-right: 0; }
+
+.form__row {
+  display: flex;
+  margin-bottom: 18px; }
+
+.form__block {
+  flex: 1;
+  margin-right: 20px; }
+  .form__block:last-child {
+    margin-right: 0; }
+
+.form__input {
+  width: 100%;
+  padding: 16px 11px;
+  border: solid 3px transparent; }
+  .form__input--textarea {
+    height: 180px;
+    resize: none; }
+  .form__input:focus {
+    border-color: #e01f3d;
+    outline: none; }
+
+.form__controls {
+  display: flex;
+  flex-wrap: wrap; }
+
+.order-section {
+  background: url("./../../image/bg/order.png"); }
+
+.order__container {
+  padding: 85px 0 90px 0;
+  color: #ffffff; }
+
+.order__title {
+  text-align: center;
+  color: #ffffff;
+  font-family: Play;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.radio {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  align-items: center;
+  margin-right: 22px; }
+  .radio--checkbox .radio__visible {
+    border-radius: 0; }
+
+.radio__elem {
+  display: none; }
+  .radio__elem:checked ~ .radio__visible::before {
+    background-color: #e01f3d;
+    display: block; }
+
+.radio__visible {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 10px; }
+  .radio__visible:before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #e01f3d;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.radio__visible-box:before {
+  border-radius: 0; }
+
+.form__controls {
+  margin-bottom: 8px; }
+
+.form__btns {
+  margin-top: 40px; }
 
 /*# sourceMappingURL=main.css.map */

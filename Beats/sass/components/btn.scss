@@ -19,16 +19,18 @@
       &:hover {
         color: $redpink;
         background: #fff;
+        cursor: pointer;
       }
     }
   
     &--theme--transparent {
       background: transparent;
-      color: #000;
+      color: #999999;
       text-transform: none;
   
       &:hover {
         color: $redpink;
+        cursor: pointer;
       }
     }
   }
