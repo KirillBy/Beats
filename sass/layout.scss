@@ -11,6 +11,16 @@ body {
   height: 100%;
 }
 
+.title{
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 57px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
 body {
   font-size: $baseFontSize;
   font-family: "Play", Arial, Helvetica, sans-serif;
@@ -92,4 +102,17 @@ display: flex;
 align-items: center;
 font-size: 21px;
 font-weight: 400;
+text-decoration: none;
+.phone-number__icon{
+  margin-right: 3px;
+}
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+
 }

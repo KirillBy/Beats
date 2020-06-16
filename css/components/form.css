@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$redpink".
-        on line 39 of C:\KirillBy.github.io\sass\components\form.scss
+        on line 40 of C:\KirillBy.github.io\sass\components\form.scss
 
-34:     height: 180px;
-35:     resize: none;
-36:   }
-37: 
-38:   &:focus {
-39:     border-color: $redpink;
-40:     outline: none;
-41:   }
-42: }
-43: 
-44: .form__controls {
+35:     height: 180px;
+36:     resize: none;
+37:   }
+38: 
+39:   &:focus {
+40:     border-color: $redpink;
+41:     outline: none;
+42:   }
+43: }
+44: 
+45: .form__controls {
 
 Backtrace:
-C:\KirillBy.github.io\sass\components\form.scss:39
+C:\KirillBy.github.io\sass\components\form.scss:40
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$redpink\".\A         on line 39 of C:\KirillBy.github.io\sass\components\form.scss\A \A 34:     height: 180px;\A 35:     resize: none;\A 36:   }\A 37: \A 38:   &:focus {\A 39:     border-color: $redpink;\A 40:     outline: none;\A 41:   }\A 42: }\A 43: \A 44: .form__controls {"; }
+  content: "Error: Undefined variable: \"$redpink\".\A         on line 40 of C:\KirillBy.github.io\sass\components\form.scss\A \A 35:     height: 180px;\A 36:     resize: none;\A 37:   }\A 38: \A 39:   &:focus {\A 40:     border-color: $redpink;\A 41:     outline: none;\A 42:   }\A 43: }\A 44: \A 45: .form__controls {"; }

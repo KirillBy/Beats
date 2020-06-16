@@ -1,6 +1,6 @@
 .benefits__container {
   width: 994px;
-  padding: 97px 0 107px 0; }
+  padding: 100px 0 107px 0; }
   .benefits__container:after {
     content: url(./../../image/bg/triangle.png);
     position: absolute;
