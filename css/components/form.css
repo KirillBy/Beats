@@ -2,7 +2,7 @@
 Error: Undefined variable: "$redpink".
         on line 40 of C:\KirillBy.github.io\sass\components\form.scss
 
-35:     height: 180px;
+35:     height: rem(180px);
 36:     resize: none;
 37:   }
 38: 
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$redpink\".\A         on line 40 of C:\KirillBy.github.io\sass\components\form.scss\A \A 35:     height: 180px;\A 36:     resize: none;\A 37:   }\A 38: \A 39:   &:focus {\A 40:     border-color: $redpink;\A 41:     outline: none;\A 42:   }\A 43: }\A 44: \A 45: .form__controls {"; }
+  content: "Error: Undefined variable: \"$redpink\".\A         on line 40 of C:\KirillBy.github.io\sass\components\form.scss\A \A 35:     height: rem(180px);\A 36:     resize: none;\A 37:   }\A 38: \A 39:   &:focus {\A 40:     border-color: $redpink;\A 41:     outline: none;\A 42:   }\A 43: }\A 44: \A 45: .form__controls {"; }

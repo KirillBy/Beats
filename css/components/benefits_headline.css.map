@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAIA,mBAAmB;EACf,MAAM,EAAE,gBAAgB;EACxB,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI",
+"mappings": "AAIA,mBAAmB;EACf,MAAM,EAAE,qBAAqB;EAC7B,KAAK,EAAE,UAAU;EACjB,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,SAAS;EACpB,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,SAAS",
 "sources": ["../../sass/components/benefits_headline.scss"],
 "names": [],
 "file": "benefits_headline.css"

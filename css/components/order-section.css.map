@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,cAAe;EACb,UAAU,EAAE,iCACd;;AAEA,iBAAiB;EACf,OAAO,EAAE,aAAa;EAEtB,KAAK,EAAE,OAAO;;AAEhB,aAAa;EACb,KAAK,EAAE,OAAO",
+"mappings": "AAAA,cAAe;EACb,UAAU,EAAE,iCACd;;AAEA,iBAAiB;EACf,OAAO,EAAE,kBAAkB;EAE3B,KAAK,EAAE,OAAO;;AAEhB,aAAa;EACb,KAAK,EAAE,OAAO",
 "sources": ["../../sass/components/order-section.scss"],
 "names": [],
 "file": "order-section.css"

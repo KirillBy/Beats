@@ -2,10 +2,24 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+$tablets: 768px;
+$phones: 480px;
 //colors
 $blue: #61c4d9;
 $redpink: #e01f3d;
- 
+
+html {
+  font-size: $baseFontSize;
+
+  @include tablets {
+    font-size: $baseFontSize - 1px;
+  }
+
+  @include phones {
+    font-size: $baseFontSize - 2px;
+  }
+}
+
 html,
 body {
   height: 100%;

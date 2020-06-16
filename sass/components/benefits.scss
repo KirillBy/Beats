@@ -1,16 +1,16 @@
 .benefits__container{
-  width: 994px;
-    padding: 100px 0 107px 0;
+  width: rem(994px);
+    padding: rem(100px) 0 rem(107px) 0;
     &:after{
         content: url(./../../image/bg/triangle.png);
         position: absolute;
-        bottom: -12px;
-        left: 6px;
+        bottom: rem(-12px);
+        left: rem(6px);
      }
 }
 .benefits {
-    padding-top: 57px;
-    padding-right: 15px;
+    padding-top: rem(57px);
+    padding-right: rem(15px);
     display: flex;
     justify-content: space-between;
   }
@@ -23,7 +23,7 @@
     &:before {
       content: url("./../../image/decor/separator.png");
       position: absolute;
-      top: 50px;
+      top: rem(50px);
       right: 0;
       transform: translateX(50%);
     }

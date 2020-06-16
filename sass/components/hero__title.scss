@@ -1,18 +1,18 @@
 .hero__title{
     text-align: left;
-    max-width: 400px;
+    max-width: rem(400px);
 }
 .hero__title-section{
-    margin-top: 82px;
+    margin-top: rem(82px);
 
     .hero__title-desc{
-        font-size: 18px;
+        font-size: rem(18px);
         font-weight: 400;
-        margin-top: 19px;
-        max-width: 335px;
+        margin-top: rem(19px);
+        max-width: rem(335px);
     }
     .btn{
-        margin-top: 36px;
+        margin-top: rem(36px);
     }
 
 }

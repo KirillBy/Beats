@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACA,QAAS;EACL,OAAO,EAAE,IAAI;;AAGf,cAAe;EACb,KAAK,EAAE,IAAI;EACX,YAAY,EAAE,GAAG;;AAGnB,cAAe;EACb,SAAS,EAAE,IAAI;EACf,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG",
+"mappings": "AACA,QAAS;EACL,OAAO,EAAE,IAAI;;AAGf,cAAe;EACb,KAAK,EAAE,SAAS;EAChB,YAAY,EAAE,QAAQ;;AAGxB,cAAe;EACb,SAAS,EAAE,SAAS;EACpB,SAAS,EAAE,SAAS;EACpB,WAAW,EAAE,GAAG",
 "sources": ["../../sass/components/feature.scss"],
 "names": [],
 "file": "feature.css"
