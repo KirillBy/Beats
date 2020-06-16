@@ -4,6 +4,15 @@ html,
 body {
   height: 100%; }
 
+.title {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 57px;
+  margin-bottom: 0;
+  text-align: center; }
+
 body {
   font-size: 18px;
   font-family: "Play", Arial, Helvetica, sans-serif;
@@ -69,7 +78,17 @@ img {
   display: flex;
   align-items: center;
   font-size: 21px;
-  font-weight: 400; }
+  font-weight: 400;
+  text-decoration: none; }
+  .phone-number .phone-number__icon {
+    margin-right: 3px; }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px; }
 
 .header {
   display: flex;
@@ -102,17 +121,19 @@ img {
 .menu__list {
   display: flex;
   align-items: center;
-  padding: 0 60px 0 38px;
   font-size: 16px;
   font-weight: 400; }
 
 .menu__item {
-  margin-right: 24px; }
+  margin-right: 26px; }
   .menu__item:last-child {
     margin-right: 0; }
 
 .menu__link {
   text-decoration: none; }
+
+.menu {
+  margin-right: 16px; }
 
 .feature {
   display: flex; }
@@ -159,43 +180,35 @@ img {
       color: #e01f3d;
       cursor: pointer; }
 
+.hero__title {
+  text-align: left;
+  max-width: 400px; }
+
 .hero__title-section {
   margin-top: 82px; }
-  .hero__title-section .hero__main-title {
-    font-size: 48px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 57px;
-    margin-bottom: 0; }
   .hero__title-section .hero__title-desc {
     font-size: 18px;
     font-weight: 400;
-    margin-top: 19px; }
+    margin-top: 19px;
+    max-width: 335px; }
   .hero__title-section .btn {
     margin-top: 36px; }
 
 .hero__features {
   margin-top: 93px; }
 
-.headline__title {
-  color: #000000;
-  font-size: 48px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0; }
-
 .headline__subtitle {
-  margin: 0 auto 0 auto;
+  margin: 12px auto 0 auto;
   width: 574px;
   color: #666666;
   font-size: 18px;
   font-weight: 400;
-  text-align: center; }
+  text-align: center;
+  line-height: 20px; }
 
 .benefits__container {
   width: 994px;
-  padding: 97px 0 107px 0; }
+  padding: 100px 0 107px 0; }
   .benefits__container:after {
     content: url(./../../image/bg/triangle.png);
     position: absolute;
@@ -283,13 +296,6 @@ img {
     left: -1px; }
 
 .review__title {
-  color: #000000;
-  font-family: Play;
-  font-size: 48px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0;
   padding-left: 19px; }
 
 .reviews__title {
@@ -338,26 +344,23 @@ img {
   display: flex;
   justify-content: center; }
 
-.reviews__switcher-item {
-  padding-right: 11px; }
-
 .interactive-avatar {
   width: 80px;
   height: 80px;
-  border: 6px solid transparent;
-  border-radius: 50%;
-  overflow: hidden;
   position: relative; }
   .interactive-avatar--active {
     border-color: #e01f3d; }
 
 .interactive-avatar__link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  display: block; }
+  display: block;
+  border: 6px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%; }
+  .interactive-avatar__link:focus, .interactive-avatar__link:active, .interactive-avatar__link:hover {
+    background-color: #e01f3d;
+    outline: none; }
 
 .interactive-avatar__img {
   display: block;
@@ -366,7 +369,8 @@ img {
   object-fit: cover; }
 
 .form {
-  display: flex; }
+  display: flex;
+  margin-top: 45px; }
 
 .form__col {
   flex: 1;
@@ -403,16 +407,11 @@ img {
   background: url("./../../image/bg/order.png"); }
 
 .order__container {
-  padding: 85px 0 90px 0;
+  padding: 77px 0 90px 0;
   color: #ffffff; }
 
 .order__title {
-  text-align: center;
-  color: #ffffff;
-  font-family: Play;
-  font-size: 48px;
-  font-weight: 700;
-  text-transform: uppercase; }
+  color: #ffffff; }
 
 .radio {
   display: flex;
@@ -423,11 +422,11 @@ img {
   .radio--checkbox .radio__visible {
     border-radius: 0; }
 
-.radio__elem {
-  display: none; }
-  .radio__elem:checked ~ .radio__visible::before {
-    background-color: #e01f3d;
-    display: block; }
+.radio__elem:checked ~ .radio__visible::before {
+  background-color: #e01f3d;
+  display: block; }
+.radio__elem:focus ~ .radio__visible {
+  background-color: grey; }
 
 .radio__visible {
   width: 26px;

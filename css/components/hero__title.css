@@ -1,15 +1,14 @@
+.hero__title {
+  text-align: left;
+  max-width: 400px; }
+
 .hero__title-section {
   margin-top: 82px; }
-  .hero__title-section .hero__main-title {
-    font-size: 48px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 57px;
-    margin-bottom: 0; }
   .hero__title-section .hero__title-desc {
     font-size: 18px;
     font-weight: 400;
-    margin-top: 19px; }
+    margin-top: 19px;
+    max-width: 335px; }
   .hero__title-section .btn {
     margin-top: 36px; }
 
