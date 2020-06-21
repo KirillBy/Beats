@@ -1,5 +1,4 @@
 .benefits__container {
-  width: rem(994px);
   padding: rem(100px) 0 rem(107px) 0; }
   .benefits__container:after {
     content: url(./../../image/bg/triangle.png);

@@ -1,11 +1,13 @@
-
+$tablets: 768px;
+$phones: 480px;
 //normalize
 @import url(./../css/normalize.css);
+@import "./media.scss";
 
 // setups
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-@import "./media.scss";
 @import "./layout.scss";
+
 @import "./components/header.scss";
 @import "./components/hero.scss";
 @import "./components/menu.scss";
@@ -22,5 +24,6 @@
 @import "./components/form.scss";
 @import "./components/order-section.scss";
 @import "./components/radio.scss";
+@import "./components/hamburger.scss";
 
 

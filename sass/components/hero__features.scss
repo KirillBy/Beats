@@ -1,3 +1,7 @@
 .hero__features{
+    position: relative;
     margin-top: rem(93px);
+    @include tablets{
+        display: none;
+    }
 }

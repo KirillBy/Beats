@@ -1,6 +1,17 @@
 .form {
   display: flex;
   margin-top: rem(45px);
+
+
+@include tablets {
+  padding: 0 19%;
+  flex-direction: column;
+}
+}
+.form__title {
+  @include tablets {
+  margin-bottom: 3px;
+  }
 }
 
 .form__col {
@@ -10,11 +21,19 @@
   &:last-child {
     margin-right: 0;
   }
+
+  @include tablets {
+    margin-right: 0;
+  }
 }
+
 
 .form__row {
   display: flex;
   margin-bottom: rem(18px);
+  @include tablets {
+    margin-bottom: rem(12px);
+  }
 }
 
 .form__block {
@@ -30,10 +49,16 @@
   width: 100%;
   padding: rem(16px) rem(11px);
   border: solid rem(3px) transparent;
+  @include tablets {
+    padding: rem(5px);
+  }
 
   &--textarea {
     height: rem(180px);
     resize: none;
+    @include tablets {
+      height: rem(80px);
+    }
   }
 
   &:focus {
@@ -45,4 +70,13 @@
 .form__controls {
   display: flex;
   flex-wrap: wrap;
+  @include phones {
+    justify-content: center;
+  }
+}
+
+.form__btns{
+  @include tablets{
+    text-align: center;
+  }
 }

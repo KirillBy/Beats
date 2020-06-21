@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 14 of C:\KirillBy.github.io\sass\layout.scss, in `tablets'
-        from line 14 of C:\KirillBy.github.io\sass\layout.scss
+        on line 13 of C:\KirillBy.github.io\sass\layout.scss, in `tablets'
+        from line 13 of C:\KirillBy.github.io\sass\layout.scss
 
-9: $redpink: #e01f3d;
-10: 
-11: html {
-12:   font-size: $baseFontSize;
-13: 
-14:   @include tablets {
-15:     font-size: $baseFontSize - 1px;
-16:   }
-17: 
-18:   @include phones {
-19:     font-size: $baseFontSize - 2px;
+8: $redpink: #e01f3d;
+9: 
+10: html {
+11:   font-size: $baseFontSize;
+12: 
+13:   @include tablets {
+14:     font-size: $baseFontSize - 1px;
+15:   }
+16: 
+17:   @include phones {
+18:     font-size: $baseFontSize - 2px;
 
 Backtrace:
-C:\KirillBy.github.io\sass\layout.scss:14:in `tablets'
-C:\KirillBy.github.io\sass\layout.scss:14
+C:\KirillBy.github.io\sass\layout.scss:13:in `tablets'
+C:\KirillBy.github.io\sass\layout.scss:13
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 14 of C:\KirillBy.github.io\sass\layout.scss, in `tablets'\A         from line 14 of C:\KirillBy.github.io\sass\layout.scss\A \A 9: $redpink: #e01f3d;\A 10: \A 11: html {\A 12:   font-size: $baseFontSize;\A 13: \A 14:   @include tablets {\A 15:     font-size: $baseFontSize - 1px;\A 16:   }\A 17: \A 18:   @include phones {\A 19:     font-size: $baseFontSize - 2px;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 13 of C:\KirillBy.github.io\sass\layout.scss, in `tablets'\A         from line 13 of C:\KirillBy.github.io\sass\layout.scss\A \A 8: $redpink: #e01f3d;\A 9: \A 10: html {\A 11:   font-size: $baseFontSize;\A 12: \A 13:   @include tablets {\A 14:     font-size: $baseFontSize - 1px;\A 15:   }\A 16: \A 17:   @include phones {\A 18:     font-size: $baseFontSize - 2px;"; }
