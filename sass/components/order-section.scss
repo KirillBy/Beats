@@ -5,7 +5,9 @@
 
 .order__container{
   padding: rem(77px) 0 rem(90px) 0;
-  
+  @include tablets{
+  padding-top: 40px;
+  }
   color: #ffffff;
 }
 .order__title{

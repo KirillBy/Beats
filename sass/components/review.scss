@@ -17,6 +17,9 @@
   }
 .review__container{
     padding: rem(68px) 0 rem(66px) 0;
+    @include smallphones{
+      padding-top: 30px;
+    }
     &:after{
       content: url(./../../image/bg/round.png);
       position: absolute;
@@ -32,6 +35,9 @@ padding-left: rem(19px);
 font-family: Play;
 font-size: rem(27px);
 font-weight: 700;
+@include smallphones{
+  font-size: 20px;
+}
 }
 
 .reviews__display-inner{
@@ -44,6 +50,9 @@ font-weight: 700;
       text-align: center;
       align-items: center;
       padding: rem(51px) rem(45px) rem(34px) rem(45px);
+    }
+    @include phones{
+      padding: rem(51px) rem(20px) rem(34px) rem(20px);
     }
 }
 
@@ -79,6 +88,9 @@ font-weight: 700;
     font-weight: 400;
     margin-top: -6px;
     line-height: 22px;
+    @include smallphones{
+      font-size: 16px;
+    }
   }
   
   .reviews__author {

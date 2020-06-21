@@ -7,6 +7,9 @@
   padding: 0 19%;
   flex-direction: column;
 }
+@include phones {
+  padding: 0;
+}
 }
 .form__title {
   @include tablets {
@@ -72,6 +75,9 @@
   flex-wrap: wrap;
   @include phones {
     justify-content: center;
+  }
+  @include smallphones{
+    justify-content: start;
   }
 }
 
