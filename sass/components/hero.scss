@@ -18,8 +18,8 @@
         height: 100%;
         padding: rem(23px) 0 rem(45px) 0;
         &:before {
-            width: 40vw;
-            height: 40vw;
+            width: rem(400px);
+            height: rem(400px);
             content: '';
             background: url(./../../image/bg/firstpage.png);
             background-size: cover;

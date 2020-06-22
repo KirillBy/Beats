@@ -135,8 +135,8 @@ img {
     height: 100%;
     padding: 1.2777777778rem 0 2.5rem 0; }
     .hero__section .hero__container:before {
-      width: 40vw;
-      height: 40vw;
+      width: 22.2222222222rem;
+      height: 22.2222222222rem;
       content: '';
       background: url(./../../image/bg/firstpage.png);
       background-size: cover;
