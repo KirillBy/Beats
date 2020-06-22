@@ -5,7 +5,12 @@
   }
 
   .header__phone-number{
+
     @include tablets{
       display: none;
     }
+  }
+  .phone-icon{
+    width: 12px;
+    height: 11px;
   }

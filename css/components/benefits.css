@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'smallphones'.
-        on line 11 of C:\KirillBy.github.io\sass\components\benefits.scss, in `smallphones'
-        from line 11 of C:\KirillBy.github.io\sass\components\benefits.scss
+        on line 14 of C:\KirillBy.github.io\sass\components\benefits.scss, in `smallphones'
+        from line 14 of C:\KirillBy.github.io\sass\components\benefits.scss
 
-6:     position: absolute;
-7:     bottom: rem(-12px);
-8:     left: rem(6px);
-9:  }
-10:     padding: rem(100px) 0  0;
-11:     @include smallphones{
-12:       padding: rem(50px) 0  0;
-13:     }
-14: 
-15: }
-16: .benefits {
+9: }
+10: .benefits__container{
+11:   //width: rem(994px);
+12: 
+13:     padding: rem(100px) 0  0;
+14:     @include smallphones{
+15:       padding: rem(50px) 0  0;
+16:     }
+17: 
+18: }
+19: .benefits {
 
 Backtrace:
-C:\KirillBy.github.io\sass\components\benefits.scss:11:in `smallphones'
-C:\KirillBy.github.io\sass\components\benefits.scss:11
+C:\KirillBy.github.io\sass\components\benefits.scss:14:in `smallphones'
+C:\KirillBy.github.io\sass\components\benefits.scss:14
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'smallphones'.\A         on line 11 of C:\KirillBy.github.io\sass\components\benefits.scss, in `smallphones'\A         from line 11 of C:\KirillBy.github.io\sass\components\benefits.scss\A \A 6:     position: absolute;\A 7:     bottom: rem(-12px);\A 8:     left: rem(6px);\A 9:  }\A 10:     padding: rem(100px) 0  0;\A 11:     @include smallphones{\A 12:       padding: rem(50px) 0  0;\A 13:     }\A 14: \A 15: }\A 16: .benefits {"; }
+  content: "Error: Undefined mixin 'smallphones'.\A         on line 14 of C:\KirillBy.github.io\sass\components\benefits.scss, in `smallphones'\A         from line 14 of C:\KirillBy.github.io\sass\components\benefits.scss\A \A 9: }\A 10: .benefits__container{\A 11:   //width: rem(994px);\A 12: \A 13:     padding: rem(100px) 0  0;\A 14:     @include smallphones{\A 15:       padding: rem(50px) 0  0;\A 16:     }\A 17: \A 18: }\A 19: .benefits {"; }

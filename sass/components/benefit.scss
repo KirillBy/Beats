@@ -52,3 +52,19 @@
       margin-right: rem(20px);
     }
   }
+
+  .benefits__icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 62px;
+    height: 62px;
+    @include smallphones{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  

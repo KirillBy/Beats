@@ -3,11 +3,11 @@ Error: Undefined mixin 'tablets'.
         on line 31 of C:\KirillBy.github.io\sass\components\hero.scss, in `tablets'
         from line 31 of C:\KirillBy.github.io\sass\components\hero.scss
 
-26:              content: url(./../../image/bg/small.png);
-27:              position: absolute;
-28:              bottom: rem(-16px);
-29:              right: rem(48px);
-30:           }
+26:             position: absolute;
+27:             top: rem(109px);
+28:             right: rem(18px);
+29:           }
+30: 
 31:           @include tablets{
 32:             &:before {
 33:                 display: none;
@@ -77,4 +77,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 31 of C:\KirillBy.github.io\sass\components\hero.scss, in `tablets'\A         from line 31 of C:\KirillBy.github.io\sass\components\hero.scss\A \A 26:              content: url(./../../image/bg/small.png);\A 27:              position: absolute;\A 28:              bottom: rem(-16px);\A 29:              right: rem(48px);\A 30:           }\A 31:           @include tablets{\A 32:             &:before {\A 33:                 display: none;\A 34:               }\A 35:           }\A 36:     }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 31 of C:\KirillBy.github.io\sass\components\hero.scss, in `tablets'\A         from line 31 of C:\KirillBy.github.io\sass\components\hero.scss\A \A 26:             position: absolute;\A 27:             top: rem(109px);\A 28:             right: rem(18px);\A 29:           }\A 30: \A 31:           @include tablets{\A 32:             &:before {\A 33:                 display: none;\A 34:               }\A 35:           }\A 36:     }"; }
