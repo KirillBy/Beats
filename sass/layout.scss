@@ -2,10 +2,23 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+
 //colors
 $blue: #61c4d9;
 $redpink: #e01f3d;
- 
+
+html {
+  font-size: $baseFontSize;
+
+  @include tablets {
+    font-size: $baseFontSize - 1px;
+  }
+
+  @include phones {
+    font-size: $baseFontSize - 2px;
+  }
+}
+
 html,
 body {
   height: 100%;
@@ -22,7 +35,6 @@ body {
 }
 
 body {
-  font-size: $baseFontSize;
   font-family: "Play", Arial, Helvetica, sans-serif;
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
@@ -34,13 +46,13 @@ body {
 .wrapper {
   position: relative;
   width: 100%;
-  min-width: $containerWidth + 20px;
   min-height: 100%;
   overflow: hidden;
 }
 
 .container {
-  width: $containerWidth;
+  width: 95%;
+  max-width: $containerWidth;
   margin: 0 auto;
   position: relative;
 }
@@ -103,7 +115,11 @@ align-items: center;
 font-size: 21px;
 font-weight: 400;
 text-decoration: none;
+.phone-number__text{
+  white-space: nowrap;
+}
 .phone-number__icon{
+  flex-shrink: 0;
   margin-right: 3px;
 }
 }
@@ -115,4 +131,8 @@ text-decoration: none;
   height: 1px;
   margin: -1px;
 
+}
+
+.section{
+  height: 100vh;
 }

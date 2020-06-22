@@ -1,3 +1,12 @@
+.reviews__section{
+  position: relative;
+  &:after{
+    content: url(./../../image/bg/round.png);
+    position: absolute;
+    bottom: rem(-20px);
+    left: rem(70px);
+ }
+}
 .reviews__display {
     overflow: hidden;
     position: relative;
@@ -5,46 +14,61 @@
     &:before {
       content: "";
       display: block;
-      width: 90px;
-      height: 90px;
+      width: rem(90px);
+      height: rem(90px);
       background: #fff;
       border-radius: 50%;
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      top: -40px;
+      top: rem(-40px);
     }
   }
 .review__container{
-    padding: 68px 0 66px 0;
-    &:after{
-      content: url(./../../image/bg/round.png);
-      position: absolute;
-      bottom: -20px;
-      left: -1px;
-   }
+    padding: rem(68px) 0 rem(66px) 0;
+    @include smallphones{
+      padding-top: 30px;
+    }
+
 }
 .review__title{
-padding-left: 19px;
+padding-left: rem(19px);
 }
 .reviews__title{
   color: #000000;
 font-family: Play;
-font-size: 27px;
+font-size: rem(27px);
 font-weight: 700;
+@include smallphones{
+  font-size: 20px;
+}
 }
 
 .reviews__display-inner{
-  margin-top: 28px;
+  margin-top: rem(28px);
     display: flex;
     background-color: #f5f5f5;
-    padding: 51px 110px 34px 45px;
+    padding: rem(51px) rem(110px) rem(34px) rem(45px);
+    @include tablets {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      padding: rem(51px) rem(45px) rem(34px) rem(45px);
+    }
+    @include phones{
+      padding: rem(51px) rem(20px) rem(34px) rem(20px);
+    }
 }
 
 
 .reviews__avatar {
-    width: 254px;
-    height: 260px;
+    width: rem(254px);
+    height: rem(260px);
+    @include tablets {
+      width: rem(130px);
+      height: rem(132px);
+      margin-bottom: rem(30px);
+    }
   }
   
   .reviews__avatar-img {
@@ -55,19 +79,22 @@ font-weight: 700;
   
   .reviews__content {
     flex: 1;
-    margin-left: 17px;
-    padding-top: 8px;
+    margin-left: rem(17px);
+    padding-top: rem(8px);
   }
   
 
   
   .reviews__text {
     margin-bottom: 36px;
-    width: 514px;
+    max-width: 514px;
     font-size: 18px;
     font-weight: 400;
     margin-top: -6px;
     line-height: 22px;
+    @include smallphones{
+      font-size: 16px;
+    }
   }
   
   .reviews__author {

@@ -1,0 +1,29 @@
+.socials {
+  display: flex; }
+
+.socials__item {
+  margin-right: 20px; }
+  .socials__item:last-child {
+    margin-right: 0; }
+
+.socials__link {
+  display: block;
+  background: #b2b2b2;
+  border-radius: 50%;
+  height: 36px;
+  position: relative;
+  width: 36px; }
+  .socials__link:hover {
+    background: #000; }
+
+.social__icon {
+  height: 50%;
+  left: 50%;
+  position: absolute;
+  stroke-width: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  fill: #fff; }
+
+/*# sourceMappingURL=socials.css.map */
