@@ -34,7 +34,7 @@
             width: rem(330px);
             height: rem(330px);
             content: '';
-            background: url(./../../image/bg/firstpage.png);
+            background: url(./../image/bg/firstpage.png);
             background-size: cover;
             @include smallphones{
                 width: rem(250px);

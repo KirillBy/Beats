@@ -1,7 +1,7 @@
 .reviews__section{
   position: relative;
   &:after{
-    content: url(./../../image/bg/round.png);
+    content: url(./../image/bg/round.png);
     position: absolute;
     bottom: rem(-20px);
     left: rem(70px);

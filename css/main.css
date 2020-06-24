@@ -137,7 +137,7 @@ img {
 .hero__section {
   background-color: #f5f5f5; }
   .hero__section:after {
-    content: url(./../../image/bg/small.png);
+    content: url(./../image/bg/small.png);
     position: absolute;
     bottom: -0.8888888889rem;
     right: 2.6666666667rem;
@@ -152,7 +152,7 @@ img {
       width: 22.2222222222rem;
       height: 22.2222222222rem;
       content: '';
-      background: url(./../../image/bg/firstpage.png);
+      background: url(./../image/bg/firstpage.png);
       background-size: contain;
       background-repeat: no-repeat;
       position: absolute;
@@ -279,7 +279,7 @@ img {
         width: 18.3333333333rem;
         height: 18.3333333333rem;
         content: '';
-        background: url(./../../image/bg/firstpage.png);
+        background: url(./../image/bg/firstpage.png);
         background-size: cover; } }
     @media screen and (max-width: 768px) and (max-width: 400px) {
       .hero__title-section:before {
@@ -306,7 +306,7 @@ img {
       font-size: 0.8888888889rem; } }
 
 .benefits__section:after {
-  content: url(./../../image/bg/triangle.png);
+  content: url(./../image/bg/triangle.png);
   position: absolute;
   bottom: -0.6666666667rem;
   left: 3.8888888889rem;
@@ -339,7 +339,7 @@ img {
       padding: 0;
       margin-bottom: 1.0555555556rem; } }
   .benefits__item:before {
-    content: url("./../../image/decor/separator.png");
+    content: url("./../image/decor/separator.png");
     position: absolute;
     top: 2.7777777778rem;
     right: 0;
@@ -427,7 +427,7 @@ img {
 .reviews__section {
   position: relative; }
   .reviews__section:after {
-    content: url(./../../image/bg/round.png);
+    content: url(./../image/bg/round.png);
     position: absolute;
     bottom: -1.1111111111rem;
     left: 3.8888888889rem;
@@ -627,7 +627,7 @@ img {
     text-align: center; } }
 
 .order__section {
-  background: url("./../../image/bg/order.png") 50% 100% no-repeat;
+  background: url("./../image/bg/order.png") 50% 100% no-repeat;
   background-size: cover; }
 
 .order__container {
@@ -736,7 +736,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("./../../image/content/map.jpg") center center/cover no-repeat; }
+  background: url("./../image/content/map.jpg") center center/cover no-repeat; }
 
 .footer {
   position: absolute;

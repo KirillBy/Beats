@@ -1,6 +1,6 @@
 .benefits__section{
   &:after{
-    content: url(./../../image/bg/triangle.png);
+    content: url(./../image/bg/triangle.png);
     position: absolute;
     bottom: rem(-12px);
     left: rem(70px);
@@ -37,7 +37,7 @@
       margin-bottom: rem(19px);
   }
     &:before {
-      content: url("./../../image/decor/separator.png");
+      content: url("./../image/decor/separator.png");
       position: absolute;
       top: rem(50px);
       right: 0;
