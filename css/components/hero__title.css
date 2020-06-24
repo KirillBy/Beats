@@ -10,8 +10,8 @@ Error: Undefined mixin 'tablets'.
 5:         text-align: center;
 6:         max-width: rem(700px);
 7:     }
-8:     @include phones{
-9:         font-size: 36px;
+8: 
+9: }
 
 Backtrace:
 C:\KirillBy.github.io\sass\components\hero__title.scss:4:in `tablets'
@@ -64,4 +64,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 4 of C:\KirillBy.github.io\sass\components\hero__title.scss, in `tablets'\A         from line 4 of C:\KirillBy.github.io\sass\components\hero__title.scss\A \A 1: .hero__title{\A 2:     text-align: left;\A 3:     max-width: rem(400px);\A 4:     @include tablets {\A 5:         text-align: center;\A 6:         max-width: rem(700px);\A 7:     }\A 8:     @include phones{\A 9:         font-size: 36px;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 4 of C:\KirillBy.github.io\sass\components\hero__title.scss, in `tablets'\A         from line 4 of C:\KirillBy.github.io\sass\components\hero__title.scss\A \A 1: .hero__title{\A 2:     text-align: left;\A 3:     max-width: rem(400px);\A 4:     @include tablets {\A 5:         text-align: center;\A 6:         max-width: rem(700px);\A 7:     }\A 8: \A 9: }"; }

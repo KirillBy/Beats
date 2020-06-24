@@ -1,7 +1,9 @@
 .form {
   display: flex;
   margin-top: rem(45px);
-
+  @include smallphones {
+    margin-top: rem(25px);
+  }
 
 @include tablets {
   padding: 0 19%;

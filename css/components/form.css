@@ -1,23 +1,21 @@
 /*
-Error: Undefined mixin 'tablets'.
-        on line 6 of C:\KirillBy.github.io\sass\components\form.scss, in `tablets'
-        from line 6 of C:\KirillBy.github.io\sass\components\form.scss
+Error: Undefined mixin 'smallphones'.
+        on line 4 of C:\KirillBy.github.io\sass\components\form.scss, in `smallphones'
+        from line 4 of C:\KirillBy.github.io\sass\components\form.scss
 
 1: .form {
 2:   display: flex;
 3:   margin-top: rem(45px);
-4: 
-5: 
-6: @include tablets {
-7:   padding: 0 19%;
-8:   flex-direction: column;
-9: }
-10: @include phones {
-11:   padding: 0;
+4:   @include smallphones {
+5:     margin-top: rem(25px);
+6:   }
+7: 
+8: @include tablets {
+9:   padding: 0 19%;
 
 Backtrace:
-C:\KirillBy.github.io\sass\components\form.scss:6:in `tablets'
-C:\KirillBy.github.io\sass\components\form.scss:6
+C:\KirillBy.github.io\sass\components\form.scss:4:in `smallphones'
+C:\KirillBy.github.io\sass\components\form.scss:4
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +64,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 6 of C:\KirillBy.github.io\sass\components\form.scss, in `tablets'\A         from line 6 of C:\KirillBy.github.io\sass\components\form.scss\A \A 1: .form {\A 2:   display: flex;\A 3:   margin-top: rem(45px);\A 4: \A 5: \A 6: @include tablets {\A 7:   padding: 0 19%;\A 8:   flex-direction: column;\A 9: }\A 10: @include phones {\A 11:   padding: 0;"; }
+  content: "Error: Undefined mixin 'smallphones'.\A         on line 4 of C:\KirillBy.github.io\sass\components\form.scss, in `smallphones'\A         from line 4 of C:\KirillBy.github.io\sass\components\form.scss\A \A 1: .form {\A 2:   display: flex;\A 3:   margin-top: rem(45px);\A 4:   @include smallphones {\A 5:     margin-top: rem(25px);\A 6:   }\A 7: \A 8: @include tablets {\A 9:   padding: 0 19%;"; }

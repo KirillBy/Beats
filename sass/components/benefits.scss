@@ -1,18 +1,16 @@
 .benefits__section{
-  position: relative;
   &:after{
     content: url(./../../image/bg/triangle.png);
     position: absolute;
     bottom: rem(-12px);
     left: rem(70px);
+    z-index: 1;
  }
 }
 .benefits__container{
-  //width: rem(994px);
-
     padding: rem(100px) 0  0;
     @include smallphones{
-      padding: rem(50px) 0  0;
+      padding: rem(10px) 0  0;
     }
 
 }
@@ -23,6 +21,9 @@
     justify-content: space-between;
     @include phones {
       flex-direction: column;
+    }
+    @include smallphones {
+      padding-top: rem(30px);
     }
   }
   

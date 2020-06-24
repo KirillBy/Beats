@@ -5,10 +5,7 @@
         text-align: center;
         max-width: rem(700px);
     }
-    @include phones{
-        font-size: 36px;
-        line-height: 1;
-    }
+
 }
 .hero__title-section{
     margin-top: rem(35px);
@@ -39,8 +36,14 @@
             content: '';
             background: url(./../../image/bg/firstpage.png);
             background-size: cover;
+            @include smallphones{
+                width: rem(250px);
+                height: rem(250px);
+            }
         }
+
       }
+      
 
 }
 

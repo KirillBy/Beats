@@ -38,6 +38,10 @@
     font-weight: bold;
     margin-bottom: rem(10px);
     color: #000;
+    @include smallphones{
+      font-size: rem(20px);
+      line-height: 1;
+    }
   }
 
   .benefit__desc{
@@ -59,11 +63,11 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    width: 62px;
-    height: 62px;
+    width: rem(62px);
+    height: rem(62px);
     @include smallphones{
-      width: 40px;
-      height: 40px;
+      width: rem(40px);
+      height: rem(40px);
     }
   }
   

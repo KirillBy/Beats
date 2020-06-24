@@ -2,7 +2,7 @@
   display: flex; }
 
 .socials__item {
-  margin-right: 20px; }
+  margin-right: rem(20px); }
   .socials__item:last-child {
     margin-right: 0; }
 
@@ -10,9 +10,9 @@
   display: block;
   background: #b2b2b2;
   border-radius: 50%;
-  height: 36px;
+  height: rem(36px);
   position: relative;
-  width: 36px; }
+  width: rem(36px); }
   .socials__link:hover {
     background: #000; }
 
