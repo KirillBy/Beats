@@ -306,7 +306,7 @@ img {
       font-size: 0.8888888889rem; } }
 
 .benefits__section:after {
-  content: url(./../../image/bg/triangle.png);
+  content: url(./../image/bg/triangle.png);
   position: absolute;
   bottom: -0.6666666667rem;
   left: 3.8888888889rem;
