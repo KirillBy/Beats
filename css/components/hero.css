@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 31 of C:\KirillBy.github.io\sass\components\hero.scss, in `tablets'
-        from line 31 of C:\KirillBy.github.io\sass\components\hero.scss
+        on line 29 of C:\KirillBy.github.io\sass\components\hero.scss, in `tablets'
+        from line 29 of C:\KirillBy.github.io\sass\components\hero.scss
 
-26:             position: absolute;
-27:             top: rem(109px);
-28:             right: rem(18px);
-29:           }
-30: 
-31:           @include tablets{
-32:             &:before {
-33:                 display: none;
-34:               }
-35:           }
-36:     }
+24:             top: 45%;
+25:             transform: translateY(-50%);
+26:             right: rem(18px);
+27:           }
+28: 
+29:           @include tablets{
+30:             &:before {
+31:                 display: none;
+32:               }
+33:           }
+34:     }
 
 Backtrace:
-C:\KirillBy.github.io\sass\components\hero.scss:31:in `tablets'
-C:\KirillBy.github.io\sass\components\hero.scss:31
+C:\KirillBy.github.io\sass\components\hero.scss:29:in `tablets'
+C:\KirillBy.github.io\sass\components\hero.scss:29
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -77,4 +77,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 31 of C:\KirillBy.github.io\sass\components\hero.scss, in `tablets'\A         from line 31 of C:\KirillBy.github.io\sass\components\hero.scss\A \A 26:             position: absolute;\A 27:             top: rem(109px);\A 28:             right: rem(18px);\A 29:           }\A 30: \A 31:           @include tablets{\A 32:             &:before {\A 33:                 display: none;\A 34:               }\A 35:           }\A 36:     }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 29 of C:\KirillBy.github.io\sass\components\hero.scss, in `tablets'\A         from line 29 of C:\KirillBy.github.io\sass\components\hero.scss\A \A 24:             top: 45%;\A 25:             transform: translateY(-50%);\A 26:             right: rem(18px);\A 27:           }\A 28: \A 29:           @include tablets{\A 30:             &:before {\A 31:                 display: none;\A 32:               }\A 33:           }\A 34:     }"; }

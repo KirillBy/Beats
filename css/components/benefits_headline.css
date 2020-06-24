@@ -1,20 +1,21 @@
 /*
 Error: Undefined mixin 'smallphones'.
-        on line 3 of C:\KirillBy.github.io\sass\components\benefits_headline.scss, in `smallphones'
-        from line 3 of C:\KirillBy.github.io\sass\components\benefits_headline.scss
+        on line 12 of C:\KirillBy.github.io\sass\components\benefits_headline.scss, in `smallphones'
+        from line 12 of C:\KirillBy.github.io\sass\components\benefits_headline.scss
 
-1: 
-2: .headline__title{
-3:     @include smallphones{
-4:         font-size: rem(36px);
-5:         line-height: 1;
-6:       }
-7: }
-8: 
+7:     color: #666666;
+8:     font-size: rem(18px);
+9:     font-weight: 400;
+10:     text-align: center;
+11:     line-height: rem(20px);
+12:     @include smallphones{
+13:         font-size: rem(16px);
+14:       }
+15: }
 
 Backtrace:
-C:\KirillBy.github.io\sass\components\benefits_headline.scss:3:in `smallphones'
-C:\KirillBy.github.io\sass\components\benefits_headline.scss:3
+C:\KirillBy.github.io\sass\components\benefits_headline.scss:12:in `smallphones'
+C:\KirillBy.github.io\sass\components\benefits_headline.scss:12
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -63,4 +64,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'smallphones'.\A         on line 3 of C:\KirillBy.github.io\sass\components\benefits_headline.scss, in `smallphones'\A         from line 3 of C:\KirillBy.github.io\sass\components\benefits_headline.scss\A \A 1: \A 2: .headline__title{\A 3:     @include smallphones{\A 4:         font-size: rem(36px);\A 5:         line-height: 1;\A 6:       }\A 7: }\A 8: "; }
+  content: "Error: Undefined mixin 'smallphones'.\A         on line 12 of C:\KirillBy.github.io\sass\components\benefits_headline.scss, in `smallphones'\A         from line 12 of C:\KirillBy.github.io\sass\components\benefits_headline.scss\A \A 7:     color: #666666;\A 8:     font-size: rem(18px);\A 9:     font-weight: 400;\A 10:     text-align: center;\A 11:     line-height: rem(20px);\A 12:     @include smallphones{\A 13:         font-size: rem(16px);\A 14:       }\A 15: }"; }

@@ -1,16 +1,19 @@
 .reviews__section{
   position: relative;
   &:after{
-    content: url(./../../image/bg/round.png);
+    content: url(./../image/bg/round.png);
     position: absolute;
     bottom: rem(-20px);
     left: rem(70px);
+    z-index: 1;
  }
+}
+.reviews{
+  margin-top: rem(28px);
 }
 .reviews__display {
     overflow: hidden;
     position: relative;
-    
     &:before {
       content: "";
       display: block;
@@ -23,11 +26,16 @@
       transform: translateX(-50%);
       top: rem(-40px);
     }
+    @include smallphones{
+      &:before {
+        display: none;
+      }
+    }
   }
 .review__container{
     padding: rem(68px) 0 rem(66px) 0;
     @include smallphones{
-      padding-top: 30px;
+      padding-top: 10px;
     }
 
 }
@@ -45,7 +53,6 @@ font-weight: 700;
 }
 
 .reviews__display-inner{
-  margin-top: rem(28px);
     display: flex;
     background-color: #f5f5f5;
     padding: rem(51px) rem(110px) rem(34px) rem(45px);
@@ -57,6 +64,9 @@ font-weight: 700;
     }
     @include phones{
       padding: rem(51px) rem(20px) rem(34px) rem(20px);
+    }
+    @include smallphones{
+      padding: rem(10px) rem(10px) rem(10px) rem(10px);
     }
 }
 
@@ -86,20 +96,20 @@ font-weight: 700;
 
   
   .reviews__text {
-    margin-bottom: 36px;
-    max-width: 514px;
-    font-size: 18px;
+    margin-bottom: rem(36px);
+    max-width: rem(514px);
+    font-size: rem(18px);
     font-weight: 400;
     margin-top: -6px;
     line-height: 22px;
     @include smallphones{
-      font-size: 16px;
+      font-size: rem(16px);
     }
   }
   
   .reviews__author {
     margin-top: -11px;
-    font-size: 18px;
+    font-size: rem(18px);
     font-weight: bold;
     color: black;
   }
