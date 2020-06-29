@@ -1,0 +1,28 @@
+.fullscreen-menu {
+  position: fixed;
+  left: -1000rem;
+  background: rgba(46, 51, 54, 0.93);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  color: #fff;
+}
+
+.fullscreen-menu_active {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.fullscreen-menu__close {
+  position: absolute;
+  top: 2.5rem;
+  right: 3.125rem;
+  font-size: 3.125rem;
+  text-decoration: none;
+}

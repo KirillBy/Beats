@@ -1,9 +1,23 @@
 .menu{
   margin: 0 30px;
   padding-top: 5px;
+
+
   @include tablets{
     display: none;
   }
+  &--vertical {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 36px;
+    margin-right: 0;
+
+    .menu__item {
+      margin-right: 0;
+    }
+  }
+
 }
 .menu__list {
     display: flex;
@@ -29,5 +43,9 @@
 
   .menu{
     margin-right: rem(16px);
+  }
+
+  .menu__item-link{
+    text-decoration: none;
   }
   
