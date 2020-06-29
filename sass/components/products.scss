@@ -1,0 +1,124 @@
+.products-section {
+    background-color: #f5f5f5;
+    position: relative;
+  }
+  
+  .products-section:after,
+  .products-section:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: center center / contain no-repeat;
+    z-index: 1;
+  }
+  
+  
+  .products-slider {
+    position: relative;
+  }
+  
+  .products-slider .bx-wrapper {
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+  
+  .products-slider__btn {
+    position: absolute;
+    top: 50vh;
+  }
+  
+  .products-slider__btn--next {
+    right: -40px;
+    border: none;
+    background: transparent;
+  }
+  
+  .products-slider__btn--prev {
+    left: -40px;
+    border: none;
+    background: transparent;
+  }
+  
+  .products__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: rem(67px);
+  }
+  
+  .products__specifications {
+    margin-bottom: rem(37px);
+  }
+  
+
+  
+  .products__col {
+    width: 46%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .products__col:last-child {
+    margin-right: 0;
+  }
+  
+  .products__image {
+    position: relative;
+  }
+  
+  .products__image:after,
+  .products__image:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: center center / contain no-repeat;
+    z-index: 1;
+  }
+  
+  
+  .products__image-elem {
+    width: rem(460px);
+    height: 100%;
+    display: block;
+  }
+  
+  .products__title {
+    font-size: rem(36px);
+    font-weight: bold;
+    margin-bottom: rem(27px);
+    line-height: 1;
+    color: #0d0d0d;
+    text-transform: uppercase;
+  }
+  
+  .products__text {
+    margin-bottom: 1.4375rem;
+  }
+  
+  .products__values-row {
+    margin-bottom: 0.75rem;
+  }
+  
+  .products__values-row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .products__values-block:first-child {
+    padding-right: 1.875rem;
+  }
+  
+  .products__values-amount {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .products__values-rub {
+    color: #0d0d0d;
+    font-size: 2.75rem;
+  }
+  
+  .products__values-rub-sign {
+    font-size: rem(36px);
+  }
