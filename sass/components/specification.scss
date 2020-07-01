@@ -69,22 +69,36 @@
     width: 2.1875rem;
     height: 2.1875rem;
   }
+
+
   
   .specifications__table-row {
-    border-bottom: 5px solid transparent;
+    margin-bottom: rem(15px);
+    display: flex;
   }
   
   .specifications__table-row:last-child {
+      margin-bottom: 0;
     border-bottom: 0;
   }
   
   .specifications__text-container {
-    padding-left: 0.625rem;
+    margin-right: auto;
   }
   
   .specifications__table-cell {
     vertical-align: middle;
+    flex:1;
+    &:last-of-type{
+        text-align: right;
+    }
   }
+  .specifications__icon-container{
+    margin-right: auto;
+    flex-basis: rem(50px);
+    flex-grow: 0;
+    flex-shrink: 0;
+}
   
   .specifications__text {
     font-size: 1rem;

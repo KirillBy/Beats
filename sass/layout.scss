@@ -1,7 +1,9 @@
    
 $containerWidth: 940px;
 $baseFontSize: 18px;
-
+$tablets: 768px;
+$phones: 480px;
+$smallphones: 400px;
 
 //colors
 $blue: #61c4d9;
@@ -142,11 +144,14 @@ text-decoration: none;
 }
 
 .section{
+    display: flex;
+  align-items: center;
   height: 100vh;
   min-height: rem(650px);
   background-color: #fff;
   color: #000000;
   position: relative;
+
   @include phones{
     min-height: initial;
   }

@@ -2,19 +2,22 @@ const burger = document.querySelector(".hamburger");
 const menu = document.querySelector(".fullscreen-menu");
 const close = document.querySelector(".fullscreen-menu__close");
 
+function toggleMenu(element, classToggle){
+    element.classList.toggle(classToggle);
+}
 burger.addEventListener('click', e => {
     e.preventDefault();
-    console.log("clicke burger");
-  menu.classList.add('fullscreen-menu_active');
+    toggleMenu(menu,'fullscreen-menu_active');
 });
 
 menu.addEventListener('click', function (e) {
+    e.preventDefault();
   if (!e.target.classList.contains('menu__item') || e.target.classList.contains('close')) {
-    menu.classList.remove('.active');
+    toggleMenu(menu,'fullscreen-menu_active');
   }
   
   if (e.target.classList.contains('menu__item')) {
-    menu.classList.remove('.active');
+    toggleMenu(menu,'fullscreen-menu_active');
   }
   
 });

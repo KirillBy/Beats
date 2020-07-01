@@ -109,6 +109,8 @@ img {
   margin: -1px; }
 
 .section {
+  display: flex;
+  align-items: center;
   height: 100vh;
   min-height: 36.1111111111rem;
   background-color: #fff;
@@ -446,6 +448,9 @@ img {
 
 .reviews {
   margin-top: 1.5555555556rem; }
+  @media screen and (max-width: 400px) {
+    .reviews {
+      margin-top: 0.5555555556rem; } }
 
 .reviews__display {
   overflow: hidden;
@@ -508,6 +513,9 @@ img {
       width: 7.2222222222rem;
       height: 7.3333333333rem;
       margin-bottom: 1.6666666667rem; } }
+  @media screen and (max-width: 400px) {
+    .reviews__avatar {
+      margin-bottom: 0.5555555556rem; } }
 
 .reviews__avatar-img {
   object-fit: cover;
@@ -642,7 +650,7 @@ img {
   background-size: cover; }
 
 .order__container {
-  padding: 4.2777777778rem 0 5rem 0;
+  padding: 4.2777777778rem 0 2rem 0;
   color: #ffffff; }
   @media screen and (max-width: 768px) {
     .order__container {
@@ -802,13 +810,15 @@ img {
 
 .products-slider__btn {
   position: absolute;
-  top: 50%; }
+  top: 50%;
+  transform: translateY(-50%); }
   @media screen and (max-width: 768px) {
     .products-slider__btn {
-      top: 22vh; } }
-  @media screen and (max-width: 400px) {
+      top: 23%;
+      transform: translateY(-50%); } }
+  @media screen and (max-width: 480px) {
     .products-slider__btn {
-      top: 12vh; } }
+      top: 20%; } }
 
 .products-slider__btn--next {
   right: -1.6666666667rem;
@@ -831,8 +841,7 @@ img {
 
 .products__container {
   display: flex;
-  justify-content: space-between;
-  padding-top: 2.0555555556rem; }
+  justify-content: space-between; }
   @media screen and (max-width: 768px) {
     .products__container {
       width: 100%;
@@ -841,8 +850,7 @@ img {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      text-align: center;
-      padding-top: 2.0555555556rem; } }
+      text-align: center; } }
   @media screen and (max-width: 400px) {
     .products__container {
       padding-top: 0.8333333333rem; } }
@@ -1011,16 +1019,27 @@ img {
   height: 2.1875rem; }
 
 .specifications__table-row {
-  border-bottom: 5px solid transparent; }
+  margin-bottom: 0.8333333333rem;
+  display: flex; }
 
 .specifications__table-row:last-child {
+  margin-bottom: 0;
   border-bottom: 0; }
 
 .specifications__text-container {
-  padding-left: 0.625rem; }
+  margin-right: auto; }
 
 .specifications__table-cell {
-  vertical-align: middle; }
+  vertical-align: middle;
+  flex: 1; }
+  .specifications__table-cell:last-of-type {
+    text-align: right; }
+
+.specifications__icon-container {
+  margin-right: auto;
+  flex-basis: 2.7777777778rem;
+  flex-grow: 0;
+  flex-shrink: 0; }
 
 .specifications__text {
   font-size: 1rem;

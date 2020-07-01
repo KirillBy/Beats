@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 13 of C:\KirillBy.github.io\sass\layout.scss, in `tablets'
-        from line 13 of C:\KirillBy.github.io\sass\layout.scss
+        on line 16 of C:\KirillBy.github.io\sass\components\specification.scss, in `tablets'
+        from line 16 of C:\KirillBy.github.io\sass\components\specification.scss
 
-8: $redpink: #e01f3d;
-9: 
-10: html {
-11:   font-size: $baseFontSize;
-12: 
-13:   @include tablets {
-14:     font-size: $baseFontSize - 1px;
-15:   }
-16: 
-17:   @include phones {
-18:     font-size: $baseFontSize - 2px;
+11:     display: flex;
+12:     align-items: center;
+13:     justify-content: center;
+14:     flex-direction: column;
+15:     color: #fff;
+16:     @include tablets{
+17:         display: none;
+18:     }
+19:     
+20:   }
+21:   
 
 Backtrace:
-C:\KirillBy.github.io\sass\layout.scss:13:in `tablets'
-C:\KirillBy.github.io\sass\layout.scss:13
+C:\KirillBy.github.io\sass\components\specification.scss:16:in `tablets'
+C:\KirillBy.github.io\sass\components\specification.scss:16
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 13 of C:\KirillBy.github.io\sass\layout.scss, in `tablets'\A         from line 13 of C:\KirillBy.github.io\sass\layout.scss\A \A 8: $redpink: #e01f3d;\A 9: \A 10: html {\A 11:   font-size: $baseFontSize;\A 12: \A 13:   @include tablets {\A 14:     font-size: $baseFontSize - 1px;\A 15:   }\A 16: \A 17:   @include phones {\A 18:     font-size: $baseFontSize - 2px;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 16 of C:\KirillBy.github.io\sass\components\specification.scss, in `tablets'\A         from line 16 of C:\KirillBy.github.io\sass\components\specification.scss\A \A 11:     display: flex;\A 12:     align-items: center;\A 13:     justify-content: center;\A 14:     flex-direction: column;\A 15:     color: #fff;\A 16:     @include tablets{\A 17:         display: none;\A 18:     }\A 19:     \A 20:   }\A 21:   "; }
