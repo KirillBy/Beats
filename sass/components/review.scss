@@ -10,6 +10,9 @@
 }
 .reviews{
   margin-top: rem(28px);
+  @include smallphones{
+    margin-top: rem(10px);
+  }
 }
 .reviews__display {
     overflow: hidden;
@@ -78,6 +81,9 @@ font-weight: 700;
       width: rem(130px);
       height: rem(132px);
       margin-bottom: rem(30px);
+    }
+    @include smallphones{
+      margin-bottom: rem(10px);
     }
   }
   

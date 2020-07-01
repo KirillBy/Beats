@@ -1,23 +1,22 @@
 /*
-Error: Undefined mixin 'smallphones'.
-        on line 13 of C:\KirillBy.github.io\sass\components\review.scss, in `smallphones'
-        from line 13 of C:\KirillBy.github.io\sass\components\review.scss
+Error: Undefined mixin 'phones'.
+        on line 14 of C:\KirillBy.github.io\sass\components\footer.scss, in `phones'
+        from line 14 of C:\KirillBy.github.io\sass\components\footer.scss
 
-8:     z-index: 1;
-9:  }
-10: }
-11: .reviews{
-12:   margin-top: rem(28px);
-13:   @include smallphones{
-14:     margin-top: rem(10px);
-15:   }
-16: }
-17: .reviews__display {
-18:     overflow: hidden;
+9:   
+10:   .footer__container {
+11:     display: flex;
+12:     justify-content: space-between;
+13:     align-items: center;
+14:     @include phones{
+15:         text-align: center;
+16:         flex-direction: column;
+17:     }
+18:   }
 
 Backtrace:
-C:\KirillBy.github.io\sass\components\review.scss:13:in `smallphones'
-C:\KirillBy.github.io\sass\components\review.scss:13
+C:\KirillBy.github.io\sass\components\footer.scss:14:in `phones'
+C:\KirillBy.github.io\sass\components\footer.scss:14
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'smallphones'.\A         on line 13 of C:\KirillBy.github.io\sass\components\review.scss, in `smallphones'\A         from line 13 of C:\KirillBy.github.io\sass\components\review.scss\A \A 8:     z-index: 1;\A 9:  }\A 10: }\A 11: .reviews{\A 12:   margin-top: rem(28px);\A 13:   @include smallphones{\A 14:     margin-top: rem(10px);\A 15:   }\A 16: }\A 17: .reviews__display {\A 18:     overflow: hidden;"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 14 of C:\KirillBy.github.io\sass\components\footer.scss, in `phones'\A         from line 14 of C:\KirillBy.github.io\sass\components\footer.scss\A \A 9:   \A 10:   .footer__container {\A 11:     display: flex;\A 12:     justify-content: space-between;\A 13:     align-items: center;\A 14:     @include phones{\A 15:         text-align: center;\A 16:         flex-direction: column;\A 17:     }\A 18:   }"; }
