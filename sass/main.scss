@@ -1,6 +1,4 @@
-$tablets: 768px;
-$phones: 480px;
-$smallphones: 400px;
+
 //normalize
 @import url(./../css/normalize.css);
 @import "./media.scss";
@@ -33,3 +31,4 @@ $smallphones: 400px;
 @import "./components/products.scss";
 @import "./components/specification.scss";
 @import "./components/fullscreen-menu.scss";
+@import "./components/team.scss";

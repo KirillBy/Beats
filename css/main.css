@@ -1071,4 +1071,112 @@ img {
   font-size: 3.125rem;
   text-decoration: none; }
 
+.team {
+  display: flex;
+  justify-content: space-between; }
+  @media screen and (max-width: 768px) {
+    .team {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 10%;
+      margin-left: -1.1111111111rem; } }
+  @media screen and (max-width: 480px) {
+    .team {
+      margin-left: -4.4444444444rem; } }
+
+.team-title {
+  margin-bottom: 3.3333333333rem; }
+  @media screen and (max-width: 400px) {
+    .team-title {
+      margin-bottom: 1.1111111111rem; } }
+
+.team__member {
+  height: 16rem;
+  margin-bottom: 1.1111111111rem; }
+  @media screen and (max-width: 768px) {
+    .team__member {
+      display: none; } }
+
+.team__member-active {
+  height: 0;
+  margin-bottom: 1.1111111111rem; }
+  @media screen and (max-width: 768px) {
+    .team__member-active {
+      height: 16rem; } }
+  @media screen and (max-width: 400px) {
+    .team__member-active {
+      height: 11.1111111111rem; } }
+
+.team__item {
+  flex: 1;
+  text-align: center;
+  margin-right: 1.1111111111rem;
+  cursor: pointer; }
+  @media screen and (max-width: 768px) {
+    .team__item {
+      flex: initial;
+      width: calc(100% / 2 - 20px);
+      margin-right: 0px;
+      margin-left: 1.1111111111rem;
+      margin-bottom: 0.8333333333rem; } }
+  @media screen and (max-width: 480px) {
+    .team__item {
+      width: calc(100% / 2 - rem(80px));
+      margin-left: 4.4444444444rem; } }
+  .team__item.active .team__title:after {
+    content: "";
+    transform: rotate(-180deg); }
+  @media screen and (max-width: 768px) {
+    .team__item.active .team__title .team__content {
+      height: 250px; } }
+  .team__item:last-child {
+    margin-right: 0; }
+
+.team__member-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.team__title {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0.7222222222rem; }
+  @media screen and (max-width: 400px) {
+    .team__title {
+      font-size: 14px; } }
+  .team__title:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 4px;
+    border-left-width: 4px;
+    border-top: 6px solid red;
+    border-bottom: 0;
+    display: block;
+    margin-left: 5px; }
+
+.team__content {
+  height: 0;
+  overflow: hidden;
+  transition: height .3s; }
+
+.team__content-text {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400; }
+  @media screen and (max-width: 400px) {
+    .team__content-text {
+      font-size: 12px; } }
+
+.team__occ {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 0.7222222222rem; }
+
 /*# sourceMappingURL=main.css.map */

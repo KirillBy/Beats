@@ -1,0 +1,134 @@
+.team {
+  display: flex;
+  justify-content: space-between;
+
+  @include tablets {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+    margin-left: rem(-20px);
+  }
+
+  @include phones {
+    margin-left: rem(-80px);
+  }
+}
+.team-title{
+margin-bottom: rem(60px);
+@include smallphones{
+  margin-bottom: rem(20px);
+}
+}
+
+
+.team__member {
+  height: rem(288px);
+  margin-bottom: rem(20px);
+  @include tablets{
+    display: none;
+  }
+}
+
+.team__member-active{
+  height: 0;
+  margin-bottom: rem(20px);
+  @include tablets{
+    height: rem(288px);
+  }
+  @include smallphones{
+    height: rem(200px);
+  }
+}
+.team__item {
+  flex: 1;
+  text-align: center;
+  margin-right: rem(20px);
+  cursor: pointer;
+
+  @include tablets {
+    flex: initial;
+    width: calc(100% / 2 - 20px);
+    margin-right: 0px;
+    margin-left: rem(20px);
+    margin-bottom: rem(15px);
+  }
+
+  @include phones {
+    width: calc(100% / 2 - rem(80px));
+    margin-left: rem(80px);
+  }
+
+  &.active {
+    .team__title {
+      &:after {
+        content: "";
+        transform: rotate(-180deg);
+      }
+      .team__content{
+        @include tablets{
+          height: 250px;
+        }
+      }
+    }
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.team__member-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team__title {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: rem(13px);
+  @include smallphones{
+    font-size: 14px;
+  }
+
+  &:after {
+    content: "";
+    
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 4px;
+    border-left-width: 4px;
+    border-top: 6px solid red;
+    border-bottom: 0;
+    display: block;
+    margin-left: 5px;
+  }
+}
+
+.team__content {
+  height: 0;
+  overflow: hidden;
+  transition: height .3s;
+
+}
+
+.team__content-text {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    @include smallphones{
+    font-size: 12px;
+  }
+}
+
+.team__occ {
+font-size: 16px;
+font-weight: 400;
+color: #000;
+margin-bottom: rem(13px);
+}
