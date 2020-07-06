@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$redpink".
-        on line 7 of C:\KirillBy.github.io\sass\components\interactive-avatar.scss
+        on line 10 of C:\KirillBy.github.io\sass\components\interactive-avatar.scss
 
-2:     width: rem(80px);
-3:     height: rem(80px);
-4:     position: relative;
-5:   
-6:     &--active {
-7:       border-color: $redpink;
-8:     }
-9:   }
-10:   
-11:   .interactive-avatar__link {
-12:     display: block;
+5:     overflow: hidden;
+6:     border: 6px solid transparent;
+7:     position: relative;
+8:     cursor: pointer;
+9:     &:focus,  &:hover {
+10:       background-color: $redpink;
+11:       outline: none;
+12:     }
+13:   }
+14:   .reviews-switcher__item.active{
+15:     border-color: $redpink;
 
 Backtrace:
-C:\KirillBy.github.io\sass\components\interactive-avatar.scss:7
+C:\KirillBy.github.io\sass\components\interactive-avatar.scss:10
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$redpink\".\A         on line 7 of C:\KirillBy.github.io\sass\components\interactive-avatar.scss\A \A 2:     width: rem(80px);\A 3:     height: rem(80px);\A 4:     position: relative;\A 5:   \A 6:     &--active {\A 7:       border-color: $redpink;\A 8:     }\A 9:   }\A 10:   \A 11:   .interactive-avatar__link {\A 12:     display: block;"; }
+  content: "Error: Undefined variable: \"$redpink\".\A         on line 10 of C:\KirillBy.github.io\sass\components\interactive-avatar.scss\A \A 5:     overflow: hidden;\A 6:     border: 6px solid transparent;\A 7:     position: relative;\A 8:     cursor: pointer;\A 9:     &:focus,  &:hover {\A 10:       background-color: $redpink;\A 11:       outline: none;\A 12:     }\A 13:   }\A 14:   .reviews-switcher__item.active{\A 15:     border-color: $redpink;"; }

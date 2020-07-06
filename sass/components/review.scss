@@ -83,7 +83,10 @@ font-weight: 700;
       margin-bottom: rem(30px);
     }
     @include smallphones{
-      margin-bottom: rem(10px);
+      width: rem(100px);
+      height: rem(102px);
+      margin-bottom: rem(15px);
+      margin-bottom: 0;
     }
   }
   
@@ -109,7 +112,7 @@ font-weight: 700;
     margin-top: -6px;
     line-height: 22px;
     @include smallphones{
-      font-size: rem(16px);
+      font-size: rem(14px);
     }
   }
   
@@ -120,9 +123,16 @@ font-weight: 700;
     color: black;
   }
   
-  .reviews__switcher {
+  .reviews-switcher {
     padding-left: 13px;
       margin-top: 21px; 
     display: flex;
     justify-content: center;
+  }
+
+  .reviews__item{
+    display: none;
+  }
+  .reviews__item.active{
+    display: block;
   }
