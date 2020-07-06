@@ -27,6 +27,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    outline:none;
+    z-index: 1;
     @include tablets{
         top: 23%;
         transform: translateY(-50%);

@@ -81,6 +81,13 @@ margin-bottom: rem(60px);
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  
+  @include tablets{
+    
+    width: 80%;
+  }
 }
 
 .team__title {
