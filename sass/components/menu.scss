@@ -12,7 +12,9 @@
     color: #fff;
     font-size: 36px;
     margin-right: 0;
-
+@include phones{
+  font-size: 24px;
+}
     .menu__item {
       margin-right: 0;
     }

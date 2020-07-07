@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 30 of C:\KirillBy.github.io\sass\components\products.scss, in `tablets'
-        from line 30 of C:\KirillBy.github.io\sass\components\products.scss
+        on line 32 of C:\KirillBy.github.io\sass\components\products.scss, in `tablets'
+        from line 32 of C:\KirillBy.github.io\sass\components\products.scss
 
-25:   
-26:   .products-slider__btn {
 27:     position: absolute;
 28:     top: 50%;
 29:     transform: translateY(-50%);
-30:     @include tablets{
-31:         top: 23%;
-32:         transform: translateY(-50%);
-33:     }
-34:     @include phones{
-35:         top: 20%;
+30:     outline:none;
+31:     z-index: 1;
+32:     @include tablets{
+33:         top: 23%;
+34:         transform: translateY(-50%);
+35:     }
+36:     @include phones{
+37:         top: 20%;
 
 Backtrace:
-C:\KirillBy.github.io\sass\components\products.scss:30:in `tablets'
-C:\KirillBy.github.io\sass\components\products.scss:30
+C:\KirillBy.github.io\sass\components\products.scss:32:in `tablets'
+C:\KirillBy.github.io\sass\components\products.scss:32
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 30 of C:\KirillBy.github.io\sass\components\products.scss, in `tablets'\A         from line 30 of C:\KirillBy.github.io\sass\components\products.scss\A \A 25:   \A 26:   .products-slider__btn {\A 27:     position: absolute;\A 28:     top: 50%;\A 29:     transform: translateY(-50%);\A 30:     @include tablets{\A 31:         top: 23%;\A 32:         transform: translateY(-50%);\A 33:     }\A 34:     @include phones{\A 35:         top: 20%;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 32 of C:\KirillBy.github.io\sass\components\products.scss, in `tablets'\A         from line 32 of C:\KirillBy.github.io\sass\components\products.scss\A \A 27:     position: absolute;\A 28:     top: 50%;\A 29:     transform: translateY(-50%);\A 30:     outline:none;\A 31:     z-index: 1;\A 32:     @include tablets{\A 33:         top: 23%;\A 34:         transform: translateY(-50%);\A 35:     }\A 36:     @include phones{\A 37:         top: 20%;"; }
