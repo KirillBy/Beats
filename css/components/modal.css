@@ -1,9 +1,11 @@
-.modal.error-modal .modal__content {
-  color: red; }
-.modal.fancybox-content {
-  padding: 0 !important; }
-.modal .fancy-button {
+.modal {
   display: none; }
+  .modal.error-modal .modal__content {
+    color: red; }
+  .modal.fancybox-content {
+    padding: 0 !important; }
+  .modal .fancy-button {
+    display: none; }
 
 .modal__container {
   background: #fff;
