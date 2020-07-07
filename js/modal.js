@@ -1,3 +1,4 @@
+const requestUrl = "https://webdev-api.loftschool.com/sendmail";
 const validateFields = (form, fieldsarray) => {
     fieldsarray.forEach(field => {
         field.removeClass("input-error");
@@ -29,7 +30,7 @@ const isValid = validateFields(form, [name, phone, comment ,to]);
  if(isValid)
  {
      const request = $.ajax({
-     url: "https://webdev-api.loftschool.com/sendmail",
+     url: requestUrl,
      method: "post" ,
      data: {
          name: name.val(),
@@ -42,6 +43,7 @@ const isValid = validateFields(form, [name, phone, comment ,to]);
 
 request.done(data => {
     content.text(data.message);
+    form[0].reset();
 })
 
 request.fail(data => {
@@ -54,6 +56,7 @@ request.fail(data => {
 request.always(() => {
     $.fancybox.open({
         src: "#modal",
+        'modal' : true,
         type: "inline"
     }); 
 })
