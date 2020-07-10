@@ -26,8 +26,16 @@
   
   .products-menu__title {
     position: relative;
-    width: 100px;
-  
+    width: rem(100px);
+    @include tablets{
+        width: rem(80px);
+    }
+    @include phones{
+        width: rem(60px);
+    }
+    @include smallphones{
+        width: rem(50px);
+    }
     &:after {
       content: "";
       display: block;
@@ -56,8 +64,17 @@
     transform-origin: 0 0;
     white-space: nowrap;
     line-height: 1;
-    font-size: 48px;
+    font-size: rem(48px);
     font-weight: bold;
+    @include tablets{
+        font-size: rem(40px);
+    }
+    @include phones{
+        font-size: rem(34px);
+    }
+    @include smallphones{
+        font-size: rem(28px);
+    }
   }
   
   .products-menu__content {
@@ -66,6 +83,15 @@
     display: none;
     position: relative;
     transition: width .7s;
+    @include tablets{
+        padding: 40px 63px 45px 26px;
+    }
+    @include phones{
+        padding: 40px 50px 45px 26px;
+    }
+    @include smallphones{
+        padding: 40px 20px 45px 26px;
+    }
   }
   
   .products-menu__close {
