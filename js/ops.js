@@ -3,6 +3,7 @@ const display = $(".maincontent");
 const sideMenu = $(".fixed-nav");
 const menuItems = sideMenu.find(".fixed-nav__item");
 
+
 const mobileDetect = new MobileDetect(window.navigator.userAgent);
 const isMobile = mobileDetect.mobile();
 

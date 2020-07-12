@@ -35,7 +35,7 @@
                               <a href="#" data-scroll-to = "reviews" class="menu__link">Отзывы</a>
                             </li>
                             <li class="menu__item">
-                              <a href="#"   class="menu__link">Как мы работаем</a>
+                              <a href="#" data-scroll-to = "video"  class="menu__link">Как мы работаем</a>
                             </li>
                             <li class="menu__item">
                               <a href="#" data-scroll-to = "map" class="menu__link">Контакты</a>
@@ -939,6 +939,35 @@
               </div>
             </section>
 
+            <section data-sidemenu-theme = "black" data-section-id = "video" class="section videosection">
+              <div class="container">
+                <h2 class="videosection__title title">как мы работаем</h2>
+                <div class="working__content">
+      
+                  <div class="video">
+                    <div class="video__screen">
+                      <video id="video" poster="./image/bg/video_bg.png">
+                        <source src="./image/beats-video.mp4" type="video/mp4">
+                      </video>
+                      <img src="./icons/play-white.png" alt="play button" class="play video__play">
+                    </div>
+      
+                    <div class="video__control">
+                      <div class="video__duration">
+                        <img src="./icons/Play_gray.png" alt="icon" class="video__icon play">
+                        <input type="range" class="video__length" id="videoDuration" min="0">
+                      </div>
+      
+                      <div class="video__sound">
+                        <img src="./icons/Volum_gray.png" alt="icon" class="video__icon" id="soundOnOff">
+                        <input type="range" class="video__length" id="videoVolume" min="0" max="10">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>    
+
         <section data-sidemenu-theme = "white" data-section-id = "order" class="section order__section">
           <div class="container order__container">
             <h2 class="title order__title">Закажите доставку</h2>
@@ -1023,7 +1052,8 @@
               </div>
             </form>
           </div>
-        </section>
+        </section>        
+
         <section data-sidemenu-theme = "black" data-section-id = "map" class="section map__section">
           <div id="map"></div>
           <footer class="footer">
@@ -1132,6 +1162,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.4/mobile-detect.min.js"></script>
     <script src="./js/burger.js"></script>
     <script src="./js/team.js"></script>
     <script src="./js/slider.js"></script>
@@ -1139,5 +1170,6 @@
     <script src="./js/modal.js"></script>
     <script src="./js/menu-aco.js"></script>
     <script src="./js/ops.js"></script>
+    <script src="./js/video.js"></script>
 </body>
 </html>
