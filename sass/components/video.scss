@@ -120,6 +120,7 @@
     height: 4px;
     border-radius: 1px;
     background: #626262;
+    background:-webkit-linear-gradient(left ,$redpink 0%,$redpink 0%,#fff 0%, #fff 100%);
     
 
     &::-webkit-slider-thumb {
@@ -130,7 +131,7 @@
       width: 13px;
       height: 13px;
       border-radius: 50%;
-      
+
       
     }
     &::-webkit-slider-runnable-track {
@@ -138,6 +139,11 @@
         -webkit-appearance: none;
         color: $redpink;
         margin-top: -1px;
+        
       }
 
+  }
+
+  .video__length-sound{
+    background:-webkit-linear-gradient(left ,$redpink 0%,$redpink 25%,#fff 25%, #fff 100%);
   }

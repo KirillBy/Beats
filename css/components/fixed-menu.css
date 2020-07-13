@@ -7,7 +7,7 @@ Error: Undefined mixin 'tablets'.
 3:     position: fixed;
 4:     top: 30%;
 5:     right: 2.5%;
-6:     z-index: 40;
+6:     z-index: 240;
 7:     @include tablets {
 8:       display: none;
 9:     }
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 7 of C:\KirillBy.github.io\sass\components\fixed-menu.scss, in `tablets'\A         from line 7 of C:\KirillBy.github.io\sass\components\fixed-menu.scss\A \A 2: .fixed-nav {\A 3:     position: fixed;\A 4:     top: 30%;\A 5:     right: 2.5%;\A 6:     z-index: 40;\A 7:     @include tablets {\A 8:       display: none;\A 9:     }\A 10:   }\A 11:   \A 12:   .fixed-nav__block {"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 7 of C:\KirillBy.github.io\sass\components\fixed-menu.scss, in `tablets'\A         from line 7 of C:\KirillBy.github.io\sass\components\fixed-menu.scss\A \A 2: .fixed-nav {\A 3:     position: fixed;\A 4:     top: 30%;\A 5:     right: 2.5%;\A 6:     z-index: 240;\A 7:     @include tablets {\A 8:       display: none;\A 9:     }\A 10:   }\A 11:   \A 12:   .fixed-nav__block {"; }

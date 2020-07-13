@@ -7,8 +7,6 @@ const videoModule = (function () {
 	const switchSound = document.getElementById('soundOnOff');
 	let intervalId;
 
-
-
 	const init = function () {
 		_setUpListners();
 		durationControl.min = 0;
