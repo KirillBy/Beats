@@ -1334,7 +1334,7 @@ img {
   font-size: 36px; }
 
 .products-menu-section {
-  background: url("./../../image/bg/atlas.png") center center/cover no-repeat;
+  background: url("./../image/bg/atlas.png") center center/cover no-repeat;
   position: relative;
   color: #fff; }
   .products-menu-section:before {
