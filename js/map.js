@@ -64,7 +64,7 @@ function init() {
       balloonContent: placemarks[i].balloonContent.join('')
     }, {
       iconLayout: 'default#image',
-      iconImageHref: './../image/decor/marker.png',
+      iconImageHref: './image/decor/marker.png',
       iconImageSize: [46, 57],
       iconImageOffset: [-23, -57]
     });
@@ -73,7 +73,7 @@ function init() {
 
   var clusterer = new ymaps.Clusterer({
     clusterIcons: [{
-      href: './../image/decor/marker.png',
+      href: './image/decor/marker.png',
       size: [46, 57],
       offset: [-23, -57]
     }],
