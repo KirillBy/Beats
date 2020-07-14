@@ -1,0 +1,149 @@
+.videosection {
+    position: relative;
+    background-color: #f8faf9;
+  }
+  
+  .videosection__title {
+    margin-bottom: 15px;
+    font-size: 40px;
+  }
+  
+
+  
+  .working__content {
+    width: 660px;
+    overflow: hidden;
+    margin: 0 auto;
+  
+    @include tablets {
+      width: 100%;
+    }
+  }
+  
+  .video {
+    width: 100%;
+  }
+  
+  .video__screen {
+    width: 100%;
+    position: relative;
+  }
+  
+  .video__play {
+    opacity: 1;
+    width: 13%; // 81px
+    height: 34%; // 117px
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition: .3s opacity ease;
+  
+    &.active {
+      opacity: 0;
+    }
+  
+    @include tablets {
+      width: 10%;
+      height: 29%;
+    }
+  
+    @include phones {
+      width: 7%;
+      height: 20%;
+    }
+  }
+  
+  #video {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+   
+  }
+  
+  .video__control,
+  .video__duration,
+  .video__sound {
+    display: flex;
+    align-items: center;
+  }
+  
+  .video__control {
+    width: 100%;
+    height: 35px;
+    justify-content: space-between;
+    background: #3e3e3e;
+    padding: 5px 20px;
+    margin-top: -4px;
+  
+    @include tablets {
+      padding: 5px 10px;
+    }
+  
+    @include phones {
+      padding: 5px;
+    }
+  }
+  
+  .video__duration {
+    width: 73%;
+  }
+  
+  .video__sound {
+    width: 23%;
+  }
+  
+  .video__icon {
+      height: 22px;
+    width: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+    @include tablets{
+        height: 20px;
+        width: 20px;
+    }
+    @include phones{
+        height: 13px;
+        width: 13px;
+    }
+  }
+  
+  .video__length {
+    width: 100%;
+    flex-grow: 1;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    height: 4px;
+    border-radius: 1px;
+    background: #626262;
+    background:-webkit-linear-gradient(left ,$redpink 0%,$redpink 0%,#fff 0%, #fff 100%);
+    
+
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+      appearance: none;     
+      background: $redpink;
+      cursor: pointer;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+
+      
+    }
+    &::-webkit-slider-runnable-track {
+        height: 10px;
+        -webkit-appearance: none;
+        color: $redpink;
+        margin-top: -1px;
+        
+      }
+
+  }
+
+  .video__length-sound{
+    background:-webkit-linear-gradient(left ,$redpink 0%,$redpink 25%,#fff 25%, #fff 100%);
+  }
