@@ -1,0 +1,30 @@
+.reviews-switcher__item {
+    width: rem(80px);
+    height: rem(80px);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid transparent;
+    position: relative;
+    cursor: pointer;
+    &:focus,  &:hover {
+      background-color: $redpink;
+      outline: none;
+    }
+  }
+  .reviews-switcher__item.active{
+    border-color: $redpink;
+  }
+  .reviews-switcher__link {
+    border:none;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+  }
+  
+  .reviews-switcher__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

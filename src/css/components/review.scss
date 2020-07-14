@@ -1,0 +1,138 @@
+.reviews__section{
+  position: relative;
+  &:after{
+    content: url(./../image/bg/round.png);
+    position: absolute;
+    bottom: rem(-20px);
+    left: rem(70px);
+    z-index: 1;
+ }
+}
+.reviews{
+  margin-top: rem(28px);
+  @include smallphones{
+    margin-top: rem(10px);
+  }
+}
+.reviews__display {
+    overflow: hidden;
+    position: relative;
+    &:before {
+      content: "";
+      display: block;
+      width: rem(90px);
+      height: rem(90px);
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: rem(-40px);
+    }
+    @include smallphones{
+      &:before {
+        display: none;
+      }
+    }
+  }
+.review__container{
+    padding: rem(68px) 0 rem(66px) 0;
+    @include smallphones{
+      padding-top: 10px;
+    }
+
+}
+.review__title{
+padding-left: rem(19px);
+}
+.reviews__title{
+  color: #000000;
+font-family: Play;
+font-size: rem(27px);
+font-weight: 700;
+@include smallphones{
+  font-size: 20px;
+}
+}
+
+.reviews__display-inner{
+    display: flex;
+    background-color: #f5f5f5;
+    padding: rem(51px) rem(110px) rem(34px) rem(45px);
+    @include tablets {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      padding: rem(51px) rem(45px) rem(34px) rem(45px);
+    }
+    @include phones{
+      padding: rem(51px) rem(20px) rem(34px) rem(20px);
+    }
+    @include smallphones{
+      padding: rem(10px) rem(10px) rem(10px) rem(10px);
+    }
+}
+
+
+.reviews__avatar {
+    width: rem(254px);
+    height: rem(260px);
+    @include tablets {
+      width: rem(130px);
+      height: rem(132px);
+      margin-bottom: rem(30px);
+    }
+    @include smallphones{
+      width: rem(100px);
+      height: rem(102px);
+      margin-bottom: rem(15px);
+      margin-bottom: 0;
+    }
+  }
+  
+  .reviews__avatar-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .reviews__content {
+    flex: 1;
+    margin-left: rem(17px);
+    padding-top: rem(8px);
+  }
+  
+
+  
+  .reviews__text {
+    margin-bottom: rem(36px);
+    max-width: rem(514px);
+    font-size: rem(18px);
+    font-weight: 400;
+    margin-top: -6px;
+    line-height: 22px;
+    @include smallphones{
+      font-size: rem(14px);
+    }
+  }
+  
+  .reviews__author {
+    margin-top: -11px;
+    font-size: rem(18px);
+    font-weight: bold;
+    color: black;
+  }
+  
+  .reviews-switcher {
+    padding-left: 13px;
+      margin-top: 21px; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .reviews__item{
+    display: none;
+  }
+  .reviews__item.active{
+    display: block;
+  }

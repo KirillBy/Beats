@@ -1,0 +1,15 @@
+
+
+
+.headline__subtitle{
+    margin: rem(12px) auto 0 auto;
+    max-width: rem(574px);
+    color: #666666;
+    font-size: rem(18px);
+    font-weight: 400;
+    text-align: center;
+    line-height: rem(20px);
+    @include smallphones{
+        font-size: rem(16px);
+      }
+}
