@@ -64,7 +64,7 @@ function init() {
       balloonContent: placemarks[i].balloonContent.join('')
     }, {
       iconLayout: 'default#image',
-      iconImageHref: '/image/decor/marker.png',
+      iconImageHref: './../image/decor/marker.png',
       iconImageSize: [46, 57],
       iconImageOffset: [-23, -57]
     });
