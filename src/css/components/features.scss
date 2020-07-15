@@ -1,0 +1,27 @@
+.features {
+    display: flex;
+  }
+  
+  .features__item {
+    margin-right: rem(40px);
+  
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .noize-icon{
+    width: rem(44px);
+    height: rem(44px);
+  }
+
+  .charging-icon{
+      width: rem(44px);
+      height: rem(44px);    
+  }
+
+  .plug-icon{
+    width: rem(44px);
+    height: rem(44px);
+  }

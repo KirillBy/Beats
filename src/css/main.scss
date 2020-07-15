@@ -1,0 +1,38 @@
+
+//normalize
+@import url(./../css/normalize.css);
+@import "./media.scss";
+
+// setups
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import "./layout.scss";
+
+@import "./components/header.scss";
+@import "./components/hero.scss";
+@import "./components/menu.scss";
+@import "./components/feature.scss";
+@import "./components/features.scss";
+@import "./components/btn.scss";
+@import "./components/hero__title.scss";
+@import "./components/hero__features.scss";
+@import "./components/benefits_headline.scss";
+@import "./components/benefits.scss";
+@import "./components/benefit.scss";
+@import "./components/review.scss";
+@import "./components/interactive-avatar.scss";
+@import "./components/form.scss";
+@import "./components/order-section.scss";
+@import "./components/radio.scss";
+@import "./components/hamburger.scss";
+@import "./components/socials.scss";
+@import "./components/map-section.scss";
+@import "./components/contacts.scss";
+@import "./components/footer.scss";
+@import "./components/products.scss";
+@import "./components/specification.scss";
+@import "./components/fullscreen-menu.scss";
+@import "./components/team.scss";
+@import "./components/modal.scss";
+@import "./components/products-menu.scss";
+@import "./components/fixed-menu.scss";
+@import "./components/video.scss";

@@ -1,0 +1,66 @@
+.benefits__section{
+  &:after{
+    content: url(./../image/bg/triangle.png);
+    position: absolute;
+    bottom: rem(-12px);
+    left: rem(70px);
+    z-index: 1;
+ }
+}
+.benefits__container{
+    padding: rem(100px) 0  0;
+    @include smallphones{
+      padding: rem(10px) 0  0;
+    }
+
+}
+.benefits {
+    padding-top: rem(57px);
+    padding-right: rem(15px);
+    display: flex;
+    justify-content: space-between;
+    @include phones {
+      flex-direction: column;
+    }
+    @include smallphones {
+      padding-top: rem(30px);
+    }
+  }
+  
+  .benefits__item {
+    flex: 1;
+    padding: 0 2%;
+    position: relative;
+
+    @include phones {
+      padding: 0;
+      margin-bottom: rem(19px);
+  }
+    &:before {
+      content: url("./../image/decor/separator.png");
+      position: absolute;
+      top: rem(50px);
+      right: 0;
+      transform: translateX(50%);
+      @include phones {
+        display: none;
+      }
+    }
+  
+    &:first-child {
+      padding-left: 0;
+    }
+  
+    &:last-child {
+      padding-right: 0;
+  
+      &:before {
+        display: none;
+      }
+      
+    }
+    @include phones {
+      display: none;
+    }
+
+}

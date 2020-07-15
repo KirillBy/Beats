@@ -1,0 +1,18 @@
+.order__section {
+  background: url("./../image/bg/order.png") 50% 100% no-repeat; 
+  background-size: cover; 
+}
+
+.order__container{
+  padding: rem(77px) 0 rem(36px) 0;
+  @include tablets{
+  padding-top: rem(40px);
+  }
+  @include smallphones{
+    padding-top: rem(10px);
+    }
+  color: #ffffff;
+}
+.order__title{
+color: #ffffff;
+}
